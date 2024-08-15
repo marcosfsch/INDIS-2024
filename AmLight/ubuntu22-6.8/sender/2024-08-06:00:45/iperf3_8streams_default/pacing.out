@@ -1,0 +1,24 @@
++ echo 'setting interface eth1 to paced rate of '
+setting interface eth1 to paced rate of 
++ tc qdisc del dev eth1 root
+Error: Cannot delete qdisc with handle of zero.
++ '[' -n '' ']'
++ tc qdisc show dev eth1
+qdisc mq 0: root 
+qdisc fq 0: parent :11 limit 10000p flow_limit 100p buckets 1024 orphan_mask 1023 quantum 18028b initial_quantum 90140b low_rate_threshold 550Kbit refill_delay 40ms timer_slack 10us horizon 10s horizon_drop 
+qdisc fq 0: parent :10 limit 10000p flow_limit 100p buckets 1024 orphan_mask 1023 quantum 18028b initial_quantum 90140b low_rate_threshold 550Kbit refill_delay 40ms timer_slack 10us horizon 10s horizon_drop 
+qdisc fq 0: parent :f limit 10000p flow_limit 100p buckets 1024 orphan_mask 1023 quantum 18028b initial_quantum 90140b low_rate_threshold 550Kbit refill_delay 40ms timer_slack 10us horizon 10s horizon_drop 
+qdisc fq 0: parent :e limit 10000p flow_limit 100p buckets 1024 orphan_mask 1023 quantum 18028b initial_quantum 90140b low_rate_threshold 550Kbit refill_delay 40ms timer_slack 10us horizon 10s horizon_drop 
+qdisc fq 0: parent :d limit 10000p flow_limit 100p buckets 1024 orphan_mask 1023 quantum 18028b initial_quantum 90140b low_rate_threshold 550Kbit refill_delay 40ms timer_slack 10us horizon 10s horizon_drop 
+qdisc fq 0: parent :c limit 10000p flow_limit 100p buckets 1024 orphan_mask 1023 quantum 18028b initial_quantum 90140b low_rate_threshold 550Kbit refill_delay 40ms timer_slack 10us horizon 10s horizon_drop 
+qdisc fq 0: parent :b limit 10000p flow_limit 100p buckets 1024 orphan_mask 1023 quantum 18028b initial_quantum 90140b low_rate_threshold 550Kbit refill_delay 40ms timer_slack 10us horizon 10s horizon_drop 
+qdisc fq 0: parent :a limit 10000p flow_limit 100p buckets 1024 orphan_mask 1023 quantum 18028b initial_quantum 90140b low_rate_threshold 550Kbit refill_delay 40ms timer_slack 10us horizon 10s horizon_drop 
+qdisc fq 0: parent :9 limit 10000p flow_limit 100p buckets 1024 orphan_mask 1023 quantum 18028b initial_quantum 90140b low_rate_threshold 550Kbit refill_delay 40ms timer_slack 10us horizon 10s horizon_drop 
+qdisc fq 0: parent :8 limit 10000p flow_limit 100p buckets 1024 orphan_mask 1023 quantum 18028b initial_quantum 90140b low_rate_threshold 550Kbit refill_delay 40ms timer_slack 10us horizon 10s horizon_drop 
+qdisc fq 0: parent :7 limit 10000p flow_limit 100p buckets 1024 orphan_mask 1023 quantum 18028b initial_quantum 90140b low_rate_threshold 550Kbit refill_delay 40ms timer_slack 10us horizon 10s horizon_drop 
+qdisc fq 0: parent :6 limit 10000p flow_limit 100p buckets 1024 orphan_mask 1023 quantum 18028b initial_quantum 90140b low_rate_threshold 550Kbit refill_delay 40ms timer_slack 10us horizon 10s horizon_drop 
+qdisc fq 0: parent :5 limit 10000p flow_limit 100p buckets 1024 orphan_mask 1023 quantum 18028b initial_quantum 90140b low_rate_threshold 550Kbit refill_delay 40ms timer_slack 10us horizon 10s horizon_drop 
+qdisc fq 0: parent :4 limit 10000p flow_limit 100p buckets 1024 orphan_mask 1023 quantum 18028b initial_quantum 90140b low_rate_threshold 550Kbit refill_delay 40ms timer_slack 10us horizon 10s horizon_drop 
+qdisc fq 0: parent :3 limit 10000p flow_limit 100p buckets 1024 orphan_mask 1023 quantum 18028b initial_quantum 90140b low_rate_threshold 550Kbit refill_delay 40ms timer_slack 10us horizon 10s horizon_drop 
+qdisc fq 0: parent :2 limit 10000p flow_limit 100p buckets 1024 orphan_mask 1023 quantum 18028b initial_quantum 90140b low_rate_threshold 550Kbit refill_delay 40ms timer_slack 10us horizon 10s horizon_drop 
+qdisc fq 0: parent :1 limit 10000p flow_limit 100p buckets 1024 orphan_mask 1023 quantum 18028b initial_quantum 90140b low_rate_threshold 550Kbit refill_delay 40ms timer_slack 10us horizon 10s horizon_drop 

@@ -1,0 +1,90 @@
+
+Collecting Results from all files...
+
+ Got iperf3 data from 8 files
+
+ Got mpstat data from 8 sender files and 8 receiver files
+
+Computing CPU Averages...
+
+Summary of all testing: 
+
+
+Test iperf3_default to Host: 10.3.54.2   (num tests: 10)
+       Throughput:   Mean: 59.3 Gbps   Min: 43.8 Gbps  Max: 63.8 Gbps   STDEV: 5.7   Retr: 0
+     Sender CPU 18:   usr :  0.4   sys :  0.7   soft: 16.5   idle: 82.3   Total:17.6
+     Sender CPU 19:   usr :  0.7   sys : 85.7   soft:  1.8   idle: 11.7   Total:88.2
+   Receiver CPU 18:   sys :  0.1   soft: 78.9   idle: 21.0   Total:79.0
+   Receiver CPU 19:   usr :  0.9   sys : 99.0   idle:  0.1   Total:99.9
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_zerocopy_pacing50 to Host: 10.3.54.2   (num tests: 10)
+       Throughput:   Mean: 50.0 Gbps   Min: 50.0 Gbps  Max: 50.0 Gbps   STDEV: 0.0   Retr: 0
+     Sender CPU 18:   usr :  0.1   sys :  0.3   soft: 41.9   idle: 57.7   Total:42.3
+     Sender CPU 19:   usr :  1.3   sys : 59.0   soft:  5.2   idle: 34.6   Total:65.5
+   Receiver CPU 18:   sys :  0.1   soft: 31.5   idle: 68.4   Total:31.6
+   Receiver CPU 19:   usr :  1.0   sys : 78.7   idle: 20.3   Total:79.7
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default to Host: 10.3.56.2   (num tests: 10)
+       Throughput:   Mean: 33.8 Gbps   Min: 12.0 Gbps  Max: 39.8 Gbps   STDEV: 9.6   Retr: 3197
+     Sender CPU 18:   usr :  0.1   sys :  0.1   soft:  9.4   idle: 90.4   Total:9.6
+     Sender CPU 19:   usr :  0.5   sys : 89.2   soft:  0.0   idle: 10.3   Total:89.7
+   Receiver CPU 18:   sys :  0.1   soft: 18.8   idle: 81.1   Total:18.9
+   Receiver CPU 19:   usr :  0.7   sys : 52.4   idle: 46.9   Total:53.1
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_zerocopy_pacing50 to Host: 10.3.56.2   (num tests: 10)
+       Throughput:   Mean: 49.7 Gbps   Min: 48.0 Gbps  Max: 50.0 Gbps   STDEV: 0.6   Retr: 1066
+     Sender CPU 18:   usr :  0.2   sys :  0.2   soft: 47.0   idle: 52.6   Total:47.4
+     Sender CPU 19:   usr : 20.6   sys : 77.6   soft:  1.8   Total:100.0
+   Receiver CPU 18:   sys :  0.1   soft: 31.4   idle: 68.5   Total:31.5
+   Receiver CPU 19:   usr :  1.0   sys : 76.8   idle: 22.3   Total:77.8
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default to Host: 10.3.58.9   (num tests: 10)
+       Throughput:   Mean: 33.4 Gbps   Min: 7.5 Gbps  Max: 39.5 Gbps   STDEV: 10.4   Retr: 3468
+     Sender CPU 18:   usr :  0.2   sys :  0.4   soft:  7.8   idle: 91.6   Total:8.4
+     Sender CPU 19:   usr :  0.5   sys : 89.1   soft:  0.0   idle: 10.3   Total:89.6
+   Receiver CPU 18:   sys :  0.1   soft: 19.0   idle: 80.9   Total:19.1
+   Receiver CPU 19:   usr :  0.8   sys : 52.5   idle: 46.7   Total:53.3
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_zerocopy_pacing50 to Host: 10.3.58.9   (num tests: 10)
+       Throughput:   Mean: 49.1 Gbps   Min: 42.0 Gbps  Max: 50.0 Gbps   STDEV: 2.5   Retr: 11106
+     Sender CPU 18:   usr :  0.4   sys :  0.1   soft: 52.3   idle: 47.2   Total:52.8
+     Sender CPU 19:   usr : 17.9   sys : 80.3   soft:  1.8   Total:100.0
+   Receiver CPU 18:   sys :  0.1   soft: 31.0   idle: 69.0   Total:31.1
+   Receiver CPU 19:   usr :  1.0   sys : 79.2   idle: 19.8   Total:80.2
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_default to Host: 10.3.60.2   (num tests: 10)
+       Throughput:   Mean: 39.1 Gbps   Min: 39.0 Gbps  Max: 39.1 Gbps   STDEV: 0.0   Retr: 0
+     Sender CPU 18:   usr :  0.1   sys :  0.0   soft:  4.8   idle: 95.0   Total:4.9
+     Sender CPU 19:   usr :  0.5   sys : 99.5   Total:100.0
+   Receiver CPU 18:   sys :  0.1   soft: 20.5   idle: 79.4   Total:20.6
+   Receiver CPU 19:   usr :  0.8   sys : 59.5   idle: 39.7   Total:60.3
+Error getting core usage for cores 4 or 5.
+
+Test iperf3_zerocopy_pacing50 to Host: 10.3.60.2   (num tests: 10)
+       Throughput:   Mean: 48.8 Gbps   Min: 38.2 Gbps  Max: 50.0 Gbps   STDEV: 3.7   Retr: 1443
+     Sender CPU 18:   usr :  0.3   sys :  0.4   soft: 43.2   idle: 56.2   Total:43.9
+     Sender CPU 19:   usr : 21.8   sys : 76.5   soft:  1.7   Total:100.0
+   Receiver CPU 18:   sys :  0.1   soft: 35.2   idle: 64.7   Total:35.3
+   Receiver CPU 19:   usr :  1.0   sys : 81.3   idle: 17.7   Total:82.3
+Error getting core usage for cores 4 or 5.
+
+
+Result Summary, sorted by Average Throughput:
+IP Address: 10.3.54.2
+    Test Name: iperf3_default, Ave Throughput: 59.3 Gbps (std: 5.7, min: 43.8, max: 63.8),  Retr: 0
+    Test Name: iperf3_zerocopy_pacing50, Ave Throughput: 50.0 Gbps (std: 0.0, min: 50.0, max: 50.0),  Retr: 0
+IP Address: 10.3.56.2
+    Test Name: iperf3_zerocopy_pacing50, Ave Throughput: 49.7 Gbps (std: 0.6, min: 48.0, max: 50.0),  Retr: 1066
+    Test Name: iperf3_default, Ave Throughput: 33.8 Gbps (std: 9.6, min: 12.0, max: 39.8),  Retr: 3197
+IP Address: 10.3.58.9
+    Test Name: iperf3_zerocopy_pacing50, Ave Throughput: 49.1 Gbps (std: 2.5, min: 42.0, max: 50.0),  Retr: 11106
+    Test Name: iperf3_default, Ave Throughput: 33.4 Gbps (std: 10.4, min: 7.5, max: 39.5),  Retr: 3468
+IP Address: 10.3.60.2
+    Test Name: iperf3_zerocopy_pacing50, Ave Throughput: 48.8 Gbps (std: 3.7, min: 38.2, max: 50.0),  Retr: 1443
+    Test Name: iperf3_default, Ave Throughput: 39.1 Gbps (std: 0.0, min: 39.0, max: 39.1),  Retr: 0

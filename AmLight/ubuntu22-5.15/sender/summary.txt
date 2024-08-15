@@ -1,0 +1,779 @@
+
+Collecting Results from all files...
+Error parsing data in file:  /home/vagrant/testing-harness/ubuntu22-5.15/2024-08-09:22:08/iperf3_4streams_default/src-cmd:10.3.60.2:8
+Error parsing data in file:  /home/vagrant/testing-harness/ubuntu22-5.15/2024-08-09:22:08/iperf3_8streams_zerocopy/src-cmd:10.3.54.2:10
+Error parsing data in file:  /home/vagrant/testing-harness/ubuntu22-5.15/2024-08-09:22:08/iperf3_8streams_zerocopy/src-cmd:10.3.58.9:4
+Error parsing data in file:  /home/vagrant/testing-harness/ubuntu22-5.15/2024-08-09:22:08/iperf3_8streams_zerocopy/src-cmd:10.3.54.2:6
+Error parsing data in file:  /home/vagrant/testing-harness/ubuntu22-5.15/2024-08-09:22:08/iperf3_8streams_zerocopy/src-cmd:10.3.54.2:3
+Error parsing data in file:  /home/vagrant/testing-harness/ubuntu22-5.15/2024-08-09:22:08/iperf3_8streams_zerocopy/src-cmd:10.3.60.2:10
+Error parsing data in file:  /home/vagrant/testing-harness/ubuntu22-5.15/2024-08-09:22:08/iperf3_8streams_zerocopy/src-cmd:10.3.60.2:6
+Error parsing data in file:  /home/vagrant/testing-harness/ubuntu22-5.15/2024-08-09:22:08/iperf3_8streams_zerocopy/src-cmd:10.3.60.2:3
+Error parsing data in file:  /home/vagrant/testing-harness/ubuntu22-5.15/2024-08-09:22:08/iperf3_4streams_zerocopy_fq20/src-cmd:10.3.60.2:8
+Error parsing data in file:  /home/vagrant/testing-harness/ubuntu22-5.15/2024-08-09:22:08/iperf3_4streams_zerocopy_fq20/src-cmd:10.3.56.2:2
+Error parsing data in file:  /home/vagrant/testing-harness/ubuntu22-5.15/2024-08-09:22:08/iperf3_4streams_zerocopy_fq20/src-cmd:10.3.60.2:5
+Error parsing data in file:  /home/vagrant/testing-harness/ubuntu22-5.15/2024-08-09:22:08/iperf3_4streams_zerocopy/src-cmd:10.3.60.2:4
+Error parsing data in file:  /home/vagrant/testing-harness/ubuntu22-5.15/2024-08-09:22:08/iperf3_4streams_zerocopy/src-cmd:10.3.60.2:1
+Error parsing data in file:  /home/vagrant/testing-harness/ubuntu22-5.15/2024-08-09:22:08/iperf3_4streams_zerocopy/src-cmd:10.3.60.2:10
+Error parsing data in file:  /home/vagrant/testing-harness/ubuntu22-5.15/2024-08-09:22:08/iperf3_4streams_zerocopy/src-cmd:10.3.60.2:7
+Error parsing data in file:  /home/vagrant/testing-harness/ubuntu22-5.15/2024-08-09:22:08/iperf3_8streams_zerocopy_fq10/src-cmd:10.3.58.9:4
+Error parsing data in file:  /home/vagrant/testing-harness/ubuntu22-5.15/2024-08-09:22:08/iperf3_8streams_zerocopy_fq10/src-cmd:10.3.60.2:2
+Error parsing data in file:  /home/vagrant/testing-harness/ubuntu22-5.15/2024-08-09:22:08/iperf3_8streams_zerocopy_fq10/src-cmd:10.3.58.9:9
+Error parsing data in file:  /home/vagrant/testing-harness/ubuntu22-5.15/2024-08-09:22:08/iperf3_8streams_zerocopy_fq10/src-cmd:10.3.60.2:5
+Error parsing data in file:  /home/vagrant/testing-harness/ubuntu22-5.15/2024-08-09:22:08/iperf3_8streams_default/src-cmd:10.3.56.2:5
+Error parsing data in file:  /home/vagrant/testing-harness/ubuntu22-5.15/2024-08-09:22:08/iperf3_8streams_default/src-cmd:10.3.60.2:5
+Error parsing data in file:  /home/vagrant/testing-harness/ubuntu22-5.15/2024-08-09:22:08/iperf3_8streams_default/src-cmd:10.3.60.2:9
+Error parsing data in file:  /home/vagrant/testing-harness/ubuntu22-5.15/2024-08-09:22:08/iperf3_8streams_default_fq10/src-cmd:10.3.60.2:4
+Error parsing data in file:  /home/vagrant/testing-harness/ubuntu22-5.15/2024-08-09:22:08/iperf3_8streams_default_fq10/src-cmd:10.3.60.2:7
+Error parsing data in file:  /home/vagrant/testing-harness/ubuntu22-5.15/2024-08-09:22:08/iperf3_8streams_default_fq10/src-cmd:10.3.56.2:3
+
+ Got iperf3 data from 48 files
+
+ Got mpstat data from 48 sender files and 0 receiver files
+
+Computing CPU Averages...
+
+Summary of all testing: 
+
+
+Test iperf3_1stream_default to Host: 10.3.54.2   (num tests: 10)
+       Throughput:   Mean: 43.6 Gbps   Min: 42.0 Gbps  Max: 44.9 Gbps   STDEV: 1.1   Retr: 0
+     Sender CPU 1:   usr :  0.0   sys :  0.0   soft:  0.0   steal:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.6   sys : 85.3   soft:  2.8   steal:  0.0   idle: 11.2   Total:88.7
+
+Test iperf3_1stream_default_pacing50 to Host: 10.3.54.2   (num tests: 10)
+       Throughput:   Mean: 47.1 Gbps   Min: 35.4 Gbps  Max: 50.0 Gbps   STDEV: 6.0   Retr: 0
+     Sender CPU 1:   usr :  0.0   soft:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.9   sys : 86.2   soft:  8.1   steal:  0.0   idle:  4.8   Total:95.2
+
+Test iperf3_1stream_zerocopy to Host: 10.3.54.2   (num tests: 10)
+       Throughput:   Mean: 41.5 Gbps   Min: 40.4 Gbps  Max: 42.8 Gbps   STDEV: 0.8   Retr: 0
+     Sender CPU 1:   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.5   sys : 17.9   soft:  0.1   idle: 81.5   Total:18.5
+
+Test iperf3_1stream_zerocopy_pacing50 to Host: 10.3.54.2   (num tests: 10)
+       Throughput:   Mean: 49.7 Gbps   Min: 48.5 Gbps  Max: 50.0 Gbps   STDEV: 0.6   Retr: 0
+     Sender CPU 1:   usr :  0.0   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  1.1   sys : 28.4   iowait:  0.0   soft:  5.7   steal:  0.0   idle: 64.8   Total:35.2
+
+Test iperf3_4streams_default to Host: 10.3.54.2   (num tests: 10)
+       Throughput:   Mean: 57.0 Gbps   Min: 54.2 Gbps  Max: 67.2 Gbps   STDEV: 3.9   Retr: 966
+     Sender CPU 1:   usr :  0.0   sys :  0.0   soft:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 3:   usr :  0.0   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 4:   usr :  0.0   sys :  0.2   soft:  0.6   steal:  0.0   idle: 99.2   Total:0.8
+     Sender CPU 5:   usr :  0.0   sys :  0.2   soft:  1.2   idle: 98.6   Total:1.4
+     Sender CPU 6:   usr :  0.0   sys :  0.2   soft:  0.7   steal:  0.0   idle: 99.1   Total:0.9
+     Sender CPU 7:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 8:   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 9:   usr :  0.6   sys : 89.3   soft:  4.7   steal:  0.0   idle:  5.4   Total:94.6
+     Sender CPU 10:   usr :  0.6   sys : 73.1   soft:  4.4   idle: 21.9   Total:78.1
+     Sender CPU 11:   usr :  0.6   sys : 90.7   soft:  5.1   steal:  0.0   idle:  3.6   Total:96.4
+     Sender CPU 12:   usr :  0.7   sys : 75.5   soft:  4.0   steal:  0.0   idle: 19.8   Total:80.2
+     Sender CPU 13:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 14:   sys :  0.2   idle: 99.8   Total:0.2
+     Sender CPU 15:   usr :  0.0   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 16:   usr :  0.0   sys :  0.2   idle: 99.8   Total:0.2
+
+Test iperf3_4streams_default_fq20 to Host: 10.3.54.2   (num tests: 9)
+       Throughput:   Mean: 76.8 Gbps   Min: 68.5 Gbps  Max: 80.0 Gbps   STDEV: 5.0   Retr: 0
+     Sender CPU 1:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   sys :  0.1   steal:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 3:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 4:   sys :  0.0   soft:  0.4   steal:  0.0   idle: 99.6   Total:0.4
+     Sender CPU 5:   sys :  0.1   soft:  2.2   steal:  0.0   idle: 97.6   Total:2.3
+     Sender CPU 6:   sys :  0.0   soft:  0.4   idle: 99.6   Total:0.4
+     Sender CPU 7:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 8:   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  0.7   sys : 62.1   soft:  4.5   steal:  0.0   idle: 32.7   Total:67.3
+     Sender CPU 10:   usr :  0.7   sys : 68.4   soft: 13.1   idle: 17.9   Total:82.2
+     Sender CPU 11:   usr :  0.6   sys : 74.2   soft:  6.5   idle: 18.7   Total:81.3
+     Sender CPU 12:   usr :  0.6   sys : 68.7   soft:  5.6   steal:  0.0   idle: 25.1   Total:74.9
+     Sender CPU 13:   idle: 100.0   Total:0.0
+     Sender CPU 14:   usr :  0.0   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 15:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 16:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+
+Test iperf3_4streams_zerocopy to Host: 10.3.54.2   (num tests: 10)
+       Throughput:   Mean: 57.3 Gbps   Min: 53.2 Gbps  Max: 62.6 Gbps   STDEV: 3.1   Retr: 273
+     Sender CPU 1:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.0   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 3:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 4:   sys :  0.1   soft:  1.1   idle: 98.8   Total:1.2
+     Sender CPU 5:   sys :  0.2   iowait:  0.0   soft:  5.3   steal:  0.0   idle: 94.5   Total:5.5
+     Sender CPU 6:   sys :  0.2   soft:  1.0   idle: 98.9   Total:1.2
+     Sender CPU 7:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 8:   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  1.2   sys : 15.6   soft:  0.4   steal:  0.0   idle: 82.8   Total:17.2
+     Sender CPU 10:   usr :  1.1   sys : 15.5   soft:  0.6   steal:  0.0   idle: 82.8   Total:17.2
+     Sender CPU 11:   usr :  1.2   sys : 16.7   soft:  0.5   steal:  0.0   idle: 81.6   Total:18.4
+     Sender CPU 12:   usr :  1.1   sys : 14.0   soft:  0.4   steal:  0.0   idle: 84.4   Total:15.5
+     Sender CPU 13:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 14:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 15:   usr :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 16:   idle: 100.0   Total:0.0
+
+Test iperf3_4streams_zerocopy_fq20 to Host: 10.3.54.2   (num tests: 10)
+       Throughput:   Mean: 79.2 Gbps   Min: 72.5 Gbps  Max: 80.0 Gbps   STDEV: 2.4   Retr: 242
+     Sender CPU 1:   usr :  0.0   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.0   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 3:   steal:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 4:   usr :  0.0   sys :  0.0   soft:  1.2   idle: 98.7   Total:1.2
+     Sender CPU 5:   usr :  0.0   sys :  0.1   soft:  5.2   steal:  0.0   idle: 94.7   Total:5.3
+     Sender CPU 6:   sys :  0.0   soft:  0.9   idle: 99.0   Total:0.9
+     Sender CPU 7:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 8:   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  1.1   sys : 15.4   soft:  1.2   steal:  0.0   idle: 82.4   Total:17.7
+     Sender CPU 10:   usr :  0.9   sys : 14.4   soft:  2.0   steal:  0.0   idle: 82.7   Total:17.3
+     Sender CPU 11:   usr :  1.1   sys : 15.9   soft:  1.2   idle: 81.8   Total:18.2
+     Sender CPU 12:   usr :  1.2   sys : 16.1   soft:  0.7   steal:  0.0   idle: 81.9   Total:18.0
+     Sender CPU 13:   idle: 100.0   Total:0.0
+     Sender CPU 14:   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 15:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 16:   sys :  0.0   idle: 100.0   Total:0.0
+
+Test iperf3_8streams_default to Host: 10.3.54.2   (num tests: 10)
+       Throughput:   Mean: 62.0 Gbps   Min: 57.3 Gbps  Max: 64.4 Gbps   STDEV: 2.3   Retr: 0
+     Sender CPU 1:   usr :  0.0   sys :  0.3   iowait:  0.0   soft:  0.5   steal:  0.0   idle: 99.2   Total:0.8
+     Sender CPU 2:   usr :  0.0   sys :  0.3   soft:  0.6   steal:  0.0   idle: 99.1   Total:0.9
+     Sender CPU 3:   sys :  0.2   soft:  0.3   steal:  0.0   idle: 99.4   Total:0.5
+     Sender CPU 4:   usr :  0.0   sys :  0.3   soft:  1.0   steal:  0.0   idle: 98.8   Total:1.3
+     Sender CPU 5:   usr :  0.0   sys :  0.2   soft:  2.0   steal:  0.0   idle: 97.8   Total:2.2
+     Sender CPU 6:   usr :  0.0   sys :  0.3   soft:  0.3   steal:  0.0   idle: 99.4   Total:0.6
+     Sender CPU 7:   usr :  0.0   sys :  0.1   iowait:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 8:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  0.5   sys : 76.9   soft:  2.4   steal:  0.0   idle: 20.2   Total:79.8
+     Sender CPU 10:   usr :  0.5   sys : 79.6   soft:  2.5   steal:  0.0   idle: 17.5   Total:82.6
+     Sender CPU 11:   usr :  0.4   sys : 83.7   soft:  2.5   idle: 13.4   Total:86.6
+     Sender CPU 12:   usr :  0.4   sys : 71.5   soft:  1.7   steal:  0.0   idle: 26.4   Total:73.6
+     Sender CPU 13:   usr :  0.5   sys : 79.9   soft:  1.9   steal:  0.0   idle: 17.7   Total:82.3
+     Sender CPU 14:   usr :  0.4   sys : 75.6   soft:  1.9   steal:  0.0   idle: 22.0   Total:77.9
+     Sender CPU 15:   usr :  0.5   sys : 80.6   soft:  1.6   steal:  0.1   idle: 17.3   Total:82.8
+     Sender CPU 16:   usr :  0.4   sys : 85.5   soft:  2.0   steal:  0.0   idle: 12.0   Total:87.9
+
+Test iperf3_8streams_default_fq10 to Host: 10.3.54.2   (num tests: 9)
+       Throughput:   Mean: 69.8 Gbps   Min: 64.3 Gbps  Max: 75.0 Gbps   STDEV: 3.3   Retr: 0
+     Sender CPU 1:   usr :  0.0   sys :  0.2   soft:  0.7   steal:  0.0   idle: 99.2   Total:0.9
+     Sender CPU 2:   usr :  0.0   sys :  0.3   soft:  0.6   steal:  0.0   idle: 99.1   Total:0.9
+     Sender CPU 3:   usr :  0.0   sys :  0.2   soft:  0.5   steal:  0.0   idle: 99.3   Total:0.7
+     Sender CPU 4:   usr :  0.0   sys :  0.2   soft:  0.9   steal:  0.0   idle: 98.9   Total:1.1
+     Sender CPU 5:   usr :  0.0   sys :  0.3   iowait:  0.0   soft:  2.6   steal:  0.0   idle: 97.1   Total:2.9
+     Sender CPU 6:   usr :  0.0   sys :  0.2   soft:  0.4   steal:  0.0   idle: 99.4   Total:0.6
+     Sender CPU 7:   sys :  0.3   idle: 99.7   Total:0.3
+     Sender CPU 8:   sys :  0.3   steal:  0.0   idle: 99.7   Total:0.3
+     Sender CPU 9:   usr :  0.4   sys : 58.1   soft:  1.8   steal:  0.0   idle: 39.7   Total:60.3
+     Sender CPU 10:   usr :  0.4   sys : 60.6   soft:  3.2   steal:  0.0   idle: 35.8   Total:64.2
+     Sender CPU 11:   usr :  0.4   sys : 63.3   soft:  2.2   idle: 34.1   Total:65.9
+     Sender CPU 12:   usr :  0.4   sys : 56.9   soft:  2.4   steal:  0.0   idle: 40.4   Total:59.7
+     Sender CPU 13:   usr :  0.4   sys : 62.0   soft:  1.3   steal:  0.0   idle: 36.3   Total:63.7
+     Sender CPU 14:   usr :  0.4   sys : 62.4   iowait:  0.0   soft:  2.6   steal:  0.0   idle: 34.6   Total:65.4
+     Sender CPU 15:   usr :  0.4   sys : 64.8   soft:  3.1   steal:  0.0   idle: 31.7   Total:68.3
+     Sender CPU 16:   usr :  0.4   sys : 66.3   soft:  2.0   steal:  0.0   idle: 31.3   Total:68.7
+
+Test iperf3_8streams_zerocopy to Host: 10.3.54.2   (num tests: 5)
+       Throughput:   Mean: 68.2 Gbps   Min: 59.3 Gbps  Max: 77.2 Gbps   STDEV: 7.8   Retr: 79151
+     Sender CPU 1:   usr :  0.0   sys :  0.1   soft:  0.4   steal:  0.0   idle: 99.5   Total:0.5
+     Sender CPU 2:   sys :  0.1   iowait:  0.0   soft:  0.5   idle: 99.4   Total:0.6
+     Sender CPU 3:   usr :  0.0   sys :  0.1   soft:  0.4   steal:  0.0   idle: 99.5   Total:0.5
+     Sender CPU 4:   sys :  0.1   iowait:  0.0   soft:  1.1   steal:  0.0   idle: 98.8   Total:1.2
+     Sender CPU 5:   usr :  0.0   sys :  0.1   soft:  1.8   idle: 98.1   Total:1.9
+     Sender CPU 6:   usr :  0.0   sys :  0.1   iowait:  0.0   soft:  0.4   idle: 99.5   Total:0.5
+     Sender CPU 7:   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 8:   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 9:   usr :  0.4   sys :  4.1   soft:  0.1   idle: 95.5   Total:4.6
+     Sender CPU 10:   usr :  0.4   sys :  4.3   soft:  0.1   steal:  0.0   idle: 95.3   Total:4.8
+     Sender CPU 11:   usr :  0.4   sys :  3.9   soft:  0.1   idle: 95.7   Total:4.4
+     Sender CPU 12:   usr :  0.3   sys :  4.3   soft:  0.1   steal:  0.0   idle: 95.3   Total:4.7
+     Sender CPU 13:   usr :  0.4   sys :  4.5   soft:  0.1   steal:  0.0   idle: 95.0   Total:5.0
+     Sender CPU 14:   usr :  0.4   sys :  4.5   soft:  0.1   steal:  0.0   idle: 95.0   Total:5.0
+     Sender CPU 15:   usr :  0.4   sys :  4.6   soft:  0.1   idle: 95.0   Total:5.1
+     Sender CPU 16:   usr :  0.5   sys :  4.6   soft:  0.1   idle: 94.9   Total:5.2
+
+Test iperf3_8streams_zerocopy_fq10 to Host: 10.3.54.2   (num tests: 10)
+       Throughput:   Mean: 80.0 Gbps   Min: 80.0 Gbps  Max: 80.0 Gbps   STDEV: 0.0   Retr: 0
+     Sender CPU 1:   sys :  0.1   soft:  1.1   steal:  0.0   idle: 98.8   Total:1.2
+     Sender CPU 2:   usr :  0.0   sys :  0.1   iowait:  0.0   soft:  1.3   idle: 98.5   Total:1.4
+     Sender CPU 3:   sys :  0.1   iowait:  0.0   soft:  1.6   steal:  0.0   idle: 98.3   Total:1.7
+     Sender CPU 4:   sys :  0.1   soft:  1.6   idle: 98.3   Total:1.7
+     Sender CPU 5:   sys :  0.1   soft:  3.3   steal:  0.0   idle: 96.6   Total:3.4
+     Sender CPU 6:   sys :  0.1   soft:  0.8   steal:  0.0   idle: 99.0   Total:0.9
+     Sender CPU 7:   usr :  0.0   sys :  0.1   iowait:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 8:   sys :  0.2   iowait:  0.0   idle: 99.8   Total:0.2
+     Sender CPU 9:   usr :  0.6   sys :  7.0   soft:  0.4   steal:  0.0   idle: 92.0   Total:8.0
+     Sender CPU 10:   usr :  0.6   sys :  8.2   soft:  0.7   steal:  0.0   idle: 90.6   Total:9.5
+     Sender CPU 11:   usr :  0.8   sys :  9.0   soft:  0.2   steal:  0.0   idle: 90.1   Total:10.0
+     Sender CPU 12:   usr :  0.7   sys :  8.7   soft:  0.1   steal:  0.0   idle: 90.5   Total:9.5
+     Sender CPU 13:   usr :  0.6   sys :  8.8   soft:  0.7   steal:  0.0   idle: 89.9   Total:10.1
+     Sender CPU 14:   usr :  0.7   sys :  8.1   soft:  0.2   steal:  0.0   idle: 91.0   Total:9.0
+     Sender CPU 15:   usr :  0.6   sys :  8.4   soft:  0.4   steal:  0.0   idle: 90.6   Total:9.4
+     Sender CPU 16:   usr :  0.8   sys : 10.4   soft:  0.2   steal:  0.0   idle: 88.6   Total:11.4
+
+Test iperf3_1stream_default to Host: 10.3.56.2   (num tests: 10)
+       Throughput:   Mean: 35.2 Gbps   Min: 19.6 Gbps  Max: 40.8 Gbps   STDEV: 8.7   Retr: 1790
+     Sender CPU 1:   usr :  0.0   sys :  0.0   iowait:  0.0   steal:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.6   sys : 88.8   soft:  1.9   idle:  8.7   Total:91.3
+
+Test iperf3_1stream_default_pacing50 to Host: 10.3.56.2   (num tests: 10)
+       Throughput:   Mean: 36.7 Gbps   Min: 13.3 Gbps  Max: 40.2 Gbps   STDEV: 8.4   Retr: 828
+     Sender CPU 1:   usr :  0.0   sys :  0.0   soft:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.6   sys : 93.8   soft:  2.2   steal:  0.0   idle:  3.5   Total:96.6
+
+Test iperf3_1stream_zerocopy to Host: 10.3.56.2   (num tests: 10)
+       Throughput:   Mean: 32.3 Gbps   Min: 19.0 Gbps  Max: 38.5 Gbps   STDEV: 7.3   Retr: 949
+     Sender CPU 1:   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  3.7   sys : 23.9   soft:  0.9   steal:  0.0   idle: 71.4   Total:28.5
+
+Test iperf3_1stream_zerocopy_pacing50 to Host: 10.3.56.2   (num tests: 10)
+       Throughput:   Mean: 49.3 Gbps   Min: 42.9 Gbps  Max: 50.0 Gbps   STDEV: 2.2   Retr: 197
+     Sender CPU 1:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr : 16.7   sys : 44.5   soft: 19.2   steal:  0.0   idle: 19.5   Total:80.4
+
+Test iperf3_4streams_default to Host: 10.3.56.2   (num tests: 9)
+       Throughput:   Mean: 47.3 Gbps   Min: 27.0 Gbps  Max: 55.3 Gbps   STDEV: 10.4   Retr: 4673
+     Sender CPU 1:   usr :  0.0   sys :  0.0   soft:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.0   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 3:   usr :  0.0   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 4:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 5:   sys :  0.1   soft:  0.7   steal:  0.0   idle: 99.2   Total:0.8
+     Sender CPU 6:   usr :  0.0   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 7:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 8:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  0.5   sys : 77.0   soft:  1.7   steal:  0.0   idle: 20.7   Total:79.2
+     Sender CPU 10:   usr :  0.5   sys : 72.9   soft:  4.0   steal:  0.0   idle: 22.7   Total:77.4
+     Sender CPU 11:   usr :  0.4   sys : 76.5   soft:  2.1   steal:  0.0   idle: 21.0   Total:79.0
+     Sender CPU 12:   usr :  0.4   sys : 75.4   soft:  2.3   steal:  0.0   idle: 21.9   Total:78.1
+     Sender CPU 13:   idle: 100.0   Total:0.0
+     Sender CPU 14:   idle: 100.0   Total:0.0
+     Sender CPU 15:   usr :  0.0   sys :  0.1   soft:  0.1   steal:  0.0   idle: 99.7   Total:0.2
+     Sender CPU 16:   usr :  0.0   sys :  0.1   soft:  0.2   steal:  0.0   idle: 99.6   Total:0.3
+
+Test iperf3_4streams_default_fq20 to Host: 10.3.56.2   (num tests: 9)
+       Throughput:   Mean: 48.2 Gbps   Min: 33.3 Gbps  Max: 54.9 Gbps   STDEV: 6.8   Retr: 3548
+     Sender CPU 1:   usr :  0.0   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 2:   usr :  0.0   sys :  0.2   steal:  0.0   idle: 99.8   Total:0.2
+     Sender CPU 3:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 4:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 5:   usr :  0.0   sys :  0.1   soft:  0.7   steal:  0.0   idle: 99.2   Total:0.8
+     Sender CPU 6:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 7:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 8:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  0.6   sys : 86.8   soft:  1.7   steal:  0.0   idle: 10.9   Total:89.1
+     Sender CPU 10:   usr :  0.5   sys : 74.7   soft:  8.3   steal:  0.0   idle: 16.6   Total:83.5
+     Sender CPU 11:   usr :  0.5   sys : 86.5   soft:  2.2   steal:  0.0   idle: 10.8   Total:89.2
+     Sender CPU 12:   usr :  0.5   sys : 86.6   soft:  2.2   steal:  0.0   idle: 10.7   Total:89.3
+     Sender CPU 13:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 14:   usr :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 15:   usr :  0.0   sys :  0.1   soft:  0.2   steal:  0.0   idle: 99.7   Total:0.3
+     Sender CPU 16:   usr :  0.0   sys :  0.2   soft:  0.4   steal:  0.0   idle: 99.4   Total:0.6
+
+Test iperf3_4streams_zerocopy to Host: 10.3.56.2   (num tests: 10)
+       Throughput:   Mean: 50.0 Gbps   Min: 30.7 Gbps  Max: 67.2 Gbps   STDEV: 10.5   Retr: 1438
+     Sender CPU 1:   usr :  0.0   sys :  0.3   iowait:  0.0   steal:  0.0   idle: 99.7   Total:0.3
+     Sender CPU 2:   sys :  0.2   iowait:  0.0   idle: 99.8   Total:0.2
+     Sender CPU 3:   usr :  0.0   sys :  0.0   idle: 99.9   Total:0.0
+     Sender CPU 4:   usr :  0.0   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 5:   sys :  0.3   iowait:  0.0   soft:  3.5   idle: 96.1   Total:3.8
+     Sender CPU 6:   idle: 100.0   Total:0.0
+     Sender CPU 7:   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 8:   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  1.0   sys : 16.9   soft:  0.8   steal:  0.0   idle: 81.3   Total:18.7
+     Sender CPU 10:   usr :  0.3   sys :  6.5   soft:  3.5   idle: 89.7   Total:10.3
+     Sender CPU 11:   usr :  1.2   sys : 18.1   soft:  1.0   steal:  0.0   idle: 79.8   Total:20.3
+     Sender CPU 12:   usr :  1.2   sys : 17.8   soft:  1.1   steal:  0.0   idle: 79.9   Total:20.1
+     Sender CPU 13:   idle: 100.0   Total:0.0
+     Sender CPU 14:   idle: 100.0   Total:0.0
+     Sender CPU 15:   usr :  0.0   sys :  0.3   soft:  2.0   idle: 97.7   Total:2.3
+     Sender CPU 16:   sys :  0.3   iowait:  0.0   soft:  1.3   steal:  0.0   idle: 98.4   Total:1.6
+
+Test iperf3_4streams_zerocopy_fq20 to Host: 10.3.56.2   (num tests: 8)
+       Throughput:   Mean: 54.6 Gbps   Min: 13.7 Gbps  Max: 79.4 Gbps   STDEV: 20.7   Retr: 7981
+     Sender CPU 1:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.0   sys :  0.1   steal:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 3:   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 4:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 5:   usr :  0.0   sys :  0.1   soft:  1.9   idle: 98.0   Total:2.0
+     Sender CPU 6:   idle: 100.0   Total:0.0
+     Sender CPU 7:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 8:   usr :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  0.9   sys : 13.0   iowait:  0.0   soft:  1.0   steal:  0.0   idle: 85.2   Total:14.9
+     Sender CPU 10:   usr :  0.4   sys :  7.4   soft:  5.4   idle: 86.8   Total:13.2
+     Sender CPU 11:   usr :  0.7   sys : 11.0   soft:  1.0   steal:  0.0   idle: 87.3   Total:12.7
+     Sender CPU 12:   usr :  0.7   sys : 10.2   soft:  0.8   steal:  0.0   idle: 88.3   Total:11.7
+     Sender CPU 13:   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 14:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 15:   usr :  0.0   sys :  0.1   soft:  0.9   idle: 99.0   Total:1.0
+     Sender CPU 16:   usr :  0.0   sys :  0.1   soft:  0.3   idle: 99.6   Total:0.4
+
+Test iperf3_8streams_default to Host: 10.3.56.2   (num tests: 7)
+       Throughput:   Mean: 52.0 Gbps   Min: 48.9 Gbps  Max: 55.2 Gbps   STDEV: 2.9   Retr: 0
+     Sender CPU 1:   usr :  0.0   sys :  0.1   soft:  0.0   steal:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 2:   usr :  0.0   sys :  0.1   steal:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 3:   usr :  0.0   sys :  0.1   soft:  0.1   steal:  0.0   idle: 99.8   Total:0.2
+     Sender CPU 4:   usr :  0.0   sys :  0.1   iowait:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 5:   usr :  0.0   sys :  0.2   iowait:  0.0   soft:  0.4   steal:  0.0   idle: 99.4   Total:0.6
+     Sender CPU 6:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 7:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 8:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  0.4   sys : 67.6   soft:  2.1   idle: 30.0   Total:70.1
+     Sender CPU 10:   usr :  0.3   sys : 64.9   soft:  4.8   steal:  0.0   idle: 30.0   Total:70.0
+     Sender CPU 11:   usr :  0.3   sys : 67.9   soft:  1.8   steal:  0.0   idle: 30.0   Total:70.0
+     Sender CPU 12:   usr :  0.3   sys : 67.8   soft:  1.9   steal:  0.0   idle: 30.0   Total:70.0
+     Sender CPU 13:   usr :  0.3   sys : 67.8   soft:  1.9   steal:  0.0   idle: 30.0   Total:70.0
+     Sender CPU 14:   usr :  0.3   sys : 67.3   soft:  2.4   steal:  0.0   idle: 30.0   Total:70.0
+     Sender CPU 15:   usr :  0.3   sys : 64.4   soft:  5.4   steal:  0.0   idle: 30.0   Total:70.1
+     Sender CPU 16:   usr :  0.3   sys : 66.0   soft:  3.6   steal:  0.1   idle: 29.9   Total:70.0
+
+Test iperf3_8streams_default_fq10 to Host: 10.3.56.2   (num tests: 8)
+       Throughput:   Mean: 53.1 Gbps   Min: 52.1 Gbps  Max: 54.7 Gbps   STDEV: 0.9   Retr: 76
+     Sender CPU 1:   usr :  0.0   sys :  0.2   soft:  0.0   idle: 99.8   Total:0.2
+     Sender CPU 2:   usr :  0.0   sys :  0.2   idle: 99.8   Total:0.2
+     Sender CPU 3:   usr :  0.0   sys :  0.1   soft:  0.2   steal:  0.0   idle: 99.7   Total:0.3
+     Sender CPU 4:   usr :  0.0   sys :  0.2   steal:  0.0   idle: 99.8   Total:0.2
+     Sender CPU 5:   usr :  0.0   sys :  0.2   soft:  0.6   steal:  0.0   idle: 99.2   Total:0.8
+     Sender CPU 6:   usr :  0.0   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 7:   usr :  0.0   sys :  0.2   idle: 99.8   Total:0.2
+     Sender CPU 8:   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 9:   usr :  0.4   sys : 77.7   soft:  1.9   steal:  0.0   idle: 20.0   Total:80.0
+     Sender CPU 10:   usr :  0.3   sys : 71.1   soft:  8.6   steal:  0.0   idle: 20.0   Total:80.0
+     Sender CPU 11:   usr :  0.3   sys : 77.9   soft:  1.8   idle: 20.0   Total:80.0
+     Sender CPU 12:   usr :  0.3   sys : 64.5   soft:  1.9   steal:  0.0   idle: 33.3   Total:66.7
+     Sender CPU 13:   usr :  0.3   sys : 77.5   soft:  2.2   idle: 20.0   Total:80.0
+     Sender CPU 14:   usr :  0.3   sys : 77.8   soft:  1.9   steal:  0.0   idle: 20.0   Total:80.0
+     Sender CPU 15:   usr :  0.3   sys : 73.9   soft:  5.8   steal:  0.0   idle: 20.0   Total:80.0
+     Sender CPU 16:   usr :  0.3   sys : 75.5   soft:  4.2   steal:  0.0   idle: 20.0   Total:80.0
+
+Test iperf3_8streams_zerocopy to Host: 10.3.56.2   (num tests: 9)
+       Throughput:   Mean: 46.1 Gbps   Min: 27.5 Gbps  Max: 54.4 Gbps   STDEV: 8.3   Retr: 1748
+     Sender CPU 1:   sys :  0.1   iowait:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 2:   sys :  0.4   steal:  0.0   idle: 99.6   Total:0.4
+     Sender CPU 3:   usr :  0.0   sys :  0.2   soft:  0.6   idle: 99.2   Total:0.8
+     Sender CPU 4:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 5:   sys :  0.2   soft:  1.4   idle: 98.4   Total:1.6
+     Sender CPU 6:   sys :  0.1   iowait:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 7:   usr :  0.0   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 8:   sys :  0.1   iowait:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 9:   usr :  0.4   sys :  5.3   soft:  0.1   steal:  0.0   idle: 94.1   Total:5.8
+     Sender CPU 10:   usr :  0.1   sys :  2.2   iowait:  0.0   soft:  2.2   idle: 95.4   Total:4.5
+     Sender CPU 11:   usr :  0.5   sys :  5.6   soft:  0.2   steal:  0.0   idle: 93.8   Total:6.3
+     Sender CPU 12:   usr :  0.5   sys :  7.9   iowait:  0.0   soft:  0.4   steal:  0.0   idle: 91.2   Total:8.8
+     Sender CPU 13:   usr :  0.5   sys :  6.2   soft:  0.2   steal:  0.0   idle: 93.1   Total:6.9
+     Sender CPU 14:   usr :  0.4   sys :  4.9   soft:  0.1   steal:  0.0   idle: 94.5   Total:5.4
+     Sender CPU 15:   usr :  0.1   sys :  2.1   soft:  2.1   steal:  0.0   idle: 95.6   Total:4.3
+     Sender CPU 16:   usr :  0.1   sys :  2.1   soft:  0.9   steal:  0.0   idle: 96.8   Total:3.1
+
+Test iperf3_8streams_zerocopy_fq10 to Host: 10.3.56.2   (num tests: 10)
+       Throughput:   Mean: 74.5 Gbps   Min: 69.6 Gbps  Max: 80.0 Gbps   STDEV: 2.9   Retr: 778
+     Sender CPU 1:   usr :  0.0   sys :  0.1   steal:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 2:   usr :  0.0   sys :  0.3   idle: 99.7   Total:0.3
+     Sender CPU 3:   sys :  0.2   soft:  1.3   steal:  0.0   idle: 98.6   Total:1.5
+     Sender CPU 4:   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 5:   usr :  0.0   sys :  0.2   soft:  2.4   steal:  0.0   idle: 97.4   Total:2.6
+     Sender CPU 6:   usr :  0.0   sys :  0.1   iowait:  0.0   idle: 99.8   Total:0.1
+     Sender CPU 7:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 8:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  0.8   sys :  9.9   soft:  0.2   idle: 89.1   Total:10.9
+     Sender CPU 10:   usr :  0.2   sys :  4.9   iowait:  0.0   soft:  3.0   idle: 91.9   Total:8.1
+     Sender CPU 11:   usr :  0.8   sys : 10.8   soft:  0.2   steal:  0.0   idle: 88.2   Total:11.8
+     Sender CPU 12:   usr :  0.4   sys :  6.0   soft:  0.6   steal:  0.0   idle: 93.0   Total:7.0
+     Sender CPU 13:   usr :  0.8   sys : 10.7   soft:  0.2   steal:  0.0   idle: 88.4   Total:11.7
+     Sender CPU 14:   usr :  0.8   sys : 10.6   soft:  0.1   steal:  0.0   idle: 88.5   Total:11.5
+     Sender CPU 15:   usr :  0.3   sys :  5.1   soft:  3.5   idle: 91.1   Total:8.9
+     Sender CPU 16:   usr :  0.4   sys :  5.8   soft:  1.7   steal:  0.0   idle: 92.1   Total:7.9
+
+Test iperf3_1stream_default to Host: 10.3.58.9   (num tests: 10)
+       Throughput:   Mean: 34.8 Gbps   Min: 10.7 Gbps  Max: 39.6 Gbps   STDEV: 9.2   Retr: 421
+     Sender CPU 1:   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.5   sys : 87.4   iowait:  0.0   soft:  2.8   steal:  0.0   idle:  9.3   Total:90.7
+
+Test iperf3_1stream_default_pacing50 to Host: 10.3.58.9   (num tests: 10)
+       Throughput:   Mean: 32.4 Gbps   Min: 4.6 Gbps  Max: 39.3 Gbps   STDEV: 12.0   Retr: 5470
+     Sender CPU 1:   sys :  0.0   soft:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.5   sys : 85.6   soft:  2.1   steal:  0.0   idle: 11.8   Total:88.2
+
+Test iperf3_1stream_zerocopy to Host: 10.3.58.9   (num tests: 10)
+       Throughput:   Mean: 26.5 Gbps   Min: 12.8 Gbps  Max: 33.6 Gbps   STDEV: 5.9   Retr: 0
+     Sender CPU 1:   usr :  0.0   sys :  0.1   iowait:  0.0   steal:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 2:   usr : 31.3   sys : 56.1   soft:  3.3   steal:  0.0   idle:  9.2   Total:90.7
+
+Test iperf3_1stream_zerocopy_pacing50 to Host: 10.3.58.9   (num tests: 10)
+       Throughput:   Mean: 45.3 Gbps   Min: 13.7 Gbps  Max: 50.0 Gbps   STDEV: 11.2   Retr: 13752
+     Sender CPU 1:   usr :  0.0   sys :  0.0   soft:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr : 30.1   sys : 64.1   soft:  5.8   steal:  0.0   idle:  0.0   Total:100.0
+
+Test iperf3_4streams_default to Host: 10.3.58.9   (num tests: 10)
+       Throughput:   Mean: 45.3 Gbps   Min: 21.9 Gbps  Max: 50.6 Gbps   STDEV: 9.5   Retr: 14446
+     Sender CPU 1:   usr :  0.0   sys :  0.0   soft:  0.0   steal:  0.0   idle: 99.9   Total:0.0
+     Sender CPU 2:   usr :  0.0   sys :  0.1   iowait:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 3:   usr :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 4:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 5:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 6:   usr :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 7:   usr :  0.0   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 8:   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  0.5   sys : 93.2   soft:  2.4   idle:  3.9   Total:96.1
+     Sender CPU 10:   usr :  0.5   sys : 86.6   soft:  2.0   steal:  0.0   idle: 10.9   Total:89.1
+     Sender CPU 11:   usr :  0.4   sys : 93.1   soft:  2.6   steal:  0.0   idle:  3.9   Total:96.1
+     Sender CPU 12:   usr :  0.6   sys : 90.5   soft:  5.1   steal:  0.0   idle:  3.9   Total:96.2
+     Sender CPU 13:   sys :  0.2   soft:  0.4   steal:  0.0   idle: 99.4   Total:0.6
+     Sender CPU 14:   idle: 100.0   Total:0.0
+     Sender CPU 15:   usr :  0.0   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 16:   sys :  0.2   soft:  0.5   steal:  0.0   idle: 99.4   Total:0.7
+
+Test iperf3_4streams_default_fq20 to Host: 10.3.58.9   (num tests: 9)
+       Throughput:   Mean: 43.9 Gbps   Min: 34.3 Gbps  Max: 51.0 Gbps   STDEV: 5.4   Retr: 3719
+     Sender CPU 1:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.0   sys :  0.1   steal:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 3:   usr :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 4:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 5:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 6:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 7:   idle: 100.0   Total:0.0
+     Sender CPU 8:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  0.5   sys : 80.7   soft:  2.4   steal:  0.0   idle: 16.4   Total:83.6
+     Sender CPU 10:   usr :  0.5   sys : 78.1   soft:  5.2   steal:  0.0   idle: 16.1   Total:83.8
+     Sender CPU 11:   usr :  0.4   sys : 80.4   soft:  2.8   steal:  0.0   idle: 16.4   Total:83.6
+     Sender CPU 12:   usr :  0.4   sys : 79.1   soft:  4.4   steal:  0.0   idle: 16.0   Total:83.9
+     Sender CPU 13:   sys :  0.2   iowait:  0.0   soft:  0.4   steal:  0.0   idle: 99.4   Total:0.6
+     Sender CPU 14:   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 15:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 16:   usr :  0.0   sys :  0.2   soft:  0.2   steal:  0.0   idle: 99.5   Total:0.4
+
+Test iperf3_4streams_zerocopy to Host: 10.3.58.9   (num tests: 7)
+       Throughput:   Mean: 32.5 Gbps   Min: 22.4 Gbps  Max: 43.1 Gbps   STDEV: 7.4   Retr: 2453
+     Sender CPU 1:   usr :  0.0   sys :  0.1   iowait:  0.0   steal:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 2:   usr :  0.0   sys :  0.1   steal:  0.0   idle: 99.8   Total:0.1
+     Sender CPU 3:   sys :  0.1   iowait:  0.0   steal:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 4:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 5:   sys :  0.0   steal:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 6:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 7:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 8:   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  0.4   sys :  7.3   soft:  0.9   steal:  0.0   idle: 91.5   Total:8.6
+     Sender CPU 10:   usr :  0.3   sys :  5.4   soft:  0.7   steal:  0.0   idle: 93.6   Total:6.4
+     Sender CPU 11:   usr :  0.4   sys :  7.7   soft:  1.1   steal:  0.0   idle: 90.7   Total:9.2
+     Sender CPU 12:   usr :  0.1   sys :  1.8   soft:  0.9   steal:  0.0   idle: 97.2   Total:2.8
+     Sender CPU 13:   usr :  0.0   sys :  0.2   soft:  1.2   steal:  0.0   idle: 98.6   Total:1.4
+     Sender CPU 14:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 15:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 16:   usr :  0.1   sys :  0.1   iowait:  0.0   soft:  0.5   steal:  0.0   idle: 99.3   Total:0.7
+
+Test iperf3_4streams_zerocopy_fq20 to Host: 10.3.58.9   (num tests: 5)
+       Throughput:   Mean: 30.8 Gbps   Min: 28.9 Gbps  Max: 34.2 Gbps   STDEV: 2.1   Retr: 0
+     Sender CPU 1:   usr :  0.0   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.0   sys :  0.1   steal:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 3:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 4:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 5:   usr :  0.0   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 6:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 7:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 8:   usr :  0.0   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  0.3   sys :  6.8   soft:  2.0   steal:  0.0   idle: 90.9   Total:9.1
+     Sender CPU 10:   usr :  0.1   sys :  2.2   soft:  1.0   idle: 96.8   Total:3.3
+     Sender CPU 11:   usr :  0.3   sys :  8.0   soft:  2.5   idle: 89.2   Total:10.8
+     Sender CPU 12:   usr : 13.7   sys : 18.9   soft:  6.0   idle: 61.4   Total:38.6
+     Sender CPU 13:   sys :  0.1   soft:  0.3   steal:  0.0   idle: 99.6   Total:0.4
+     Sender CPU 14:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 15:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 16:   usr :  0.1   sys :  0.0   soft:  0.1   steal:  0.0   idle: 99.8   Total:0.2
+
+Test iperf3_8streams_default to Host: 10.3.58.9   (num tests: 10)
+       Throughput:   Mean: 48.2 Gbps   Min: 37.0 Gbps  Max: 51.8 Gbps   STDEV: 5.2   Retr: 31
+     Sender CPU 1:   usr :  0.0   sys :  0.3   steal:  0.0   idle: 99.7   Total:0.3
+     Sender CPU 2:   usr :  0.0   sys :  0.4   steal:  0.0   idle: 99.5   Total:0.4
+     Sender CPU 3:   idle: 100.0   Total:0.0
+     Sender CPU 4:   usr :  0.0   sys :  0.0   iowait:  0.0   idle: 99.9   Total:0.0
+     Sender CPU 5:   usr :  0.0   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 6:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 7:   usr :  0.0   sys :  0.5   idle: 99.5   Total:0.5
+     Sender CPU 8:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  0.4   sys : 83.9   soft:  2.2   steal:  0.0   idle: 13.5   Total:86.5
+     Sender CPU 10:   usr :  0.3   sys : 77.7   soft:  7.4   steal:  0.0   idle: 14.6   Total:85.4
+     Sender CPU 11:   usr :  0.3   sys : 80.9   soft:  5.8   steal:  0.0   idle: 13.0   Total:87.0
+     Sender CPU 12:   usr :  0.3   sys : 74.2   soft:  8.0   steal:  0.0   idle: 17.6   Total:82.5
+     Sender CPU 13:   usr :  0.3   sys : 76.9   soft: 10.2   steal:  0.0   idle: 12.6   Total:87.4
+     Sender CPU 14:   usr :  0.3   sys : 82.8   soft:  3.3   steal:  0.0   idle: 13.6   Total:86.4
+     Sender CPU 15:   usr :  0.4   sys : 81.5   soft:  3.2   steal:  0.0   idle: 14.9   Total:85.1
+     Sender CPU 16:   usr :  0.4   sys : 79.6   soft:  7.1   steal:  0.0   idle: 12.9   Total:87.1
+
+Test iperf3_8streams_default_fq10 to Host: 10.3.58.9   (num tests: 10)
+       Throughput:   Mean: 42.9 Gbps   Min: 23.8 Gbps  Max: 51.1 Gbps   STDEV: 7.8   Retr: 46
+     Sender CPU 1:   usr :  0.0   sys :  0.2   steal:  0.0   idle: 99.8   Total:0.2
+     Sender CPU 2:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 3:   usr :  0.0   soft:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 4:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 5:   usr :  0.0   sys :  0.3   idle: 99.7   Total:0.3
+     Sender CPU 6:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 7:   usr :  0.0   sys :  0.4   idle: 99.6   Total:0.4
+     Sender CPU 8:   usr :  0.0   sys :  0.5   iowait:  0.0   idle: 99.5   Total:0.5
+     Sender CPU 9:   usr :  0.3   sys : 79.6   soft:  2.1   steal:  0.0   idle: 18.0   Total:82.0
+     Sender CPU 10:   usr :  0.3   sys : 76.6   soft:  5.4   steal:  0.0   idle: 17.7   Total:82.3
+     Sender CPU 11:   usr :  0.3   sys : 77.0   soft:  5.3   steal:  0.0   idle: 17.4   Total:82.6
+     Sender CPU 12:   usr :  0.3   sys : 71.6   soft:  7.8   steal:  0.0   idle: 20.3   Total:79.7
+     Sender CPU 13:   usr :  0.3   sys : 73.8   soft:  8.8   steal:  0.0   idle: 17.1   Total:82.9
+     Sender CPU 14:   usr :  0.3   sys : 79.1   soft:  2.5   steal:  0.0   idle: 18.1   Total:81.9
+     Sender CPU 15:   usr :  0.3   sys : 78.8   iowait:  0.0   soft:  2.6   steal:  0.0   idle: 18.3   Total:81.7
+     Sender CPU 16:   usr :  0.3   sys : 76.3   soft:  5.7   steal:  0.0   idle: 17.7   Total:82.3
+
+Test iperf3_8streams_zerocopy to Host: 10.3.58.9   (num tests: 5)
+       Throughput:   Mean: 40.2 Gbps   Min: 34.3 Gbps  Max: 49.3 Gbps   STDEV: 6.5   Retr: 621
+     Sender CPU 1:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 3:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 4:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 5:   usr :  0.0   sys :  0.1   steal:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 6:   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 7:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 8:   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  0.1   sys :  1.8   soft:  0.2   idle: 97.9   Total:2.1
+     Sender CPU 10:   usr :  0.1   sys :  2.0   soft:  0.7   steal:  0.0   idle: 97.2   Total:2.8
+     Sender CPU 11:   usr :  0.2   sys :  3.1   soft:  1.2   steal:  0.0   idle: 95.5   Total:4.5
+     Sender CPU 12:   usr :  0.1   sys :  1.4   iowait:  0.0   soft:  0.8   idle: 97.7   Total:2.3
+     Sender CPU 13:   usr :  0.1   sys :  2.4   soft:  1.7   steal:  0.0   idle: 95.8   Total:4.2
+     Sender CPU 14:   usr :  0.1   sys :  1.6   soft:  0.3   idle: 98.0   Total:2.0
+     Sender CPU 15:   usr :  0.1   sys :  2.4   soft:  0.3   idle: 97.1   Total:2.8
+     Sender CPU 16:   usr :  0.3   sys :  3.0   soft:  0.9   steal:  0.0   idle: 95.9   Total:4.2
+
+Test iperf3_8streams_zerocopy_fq10 to Host: 10.3.58.9   (num tests: 4)
+       Throughput:   Mean: 20.5 Gbps   Min: 18.2 Gbps  Max: 22.9 Gbps   STDEV: 2.3   Retr: 0
+     Sender CPU 1:   usr :  0.0   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.0   sys :  0.1   iowait:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 3:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 4:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 5:   usr :  0.0   sys :  0.0   soft:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 6:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 7:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 8:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  3.1   sys :  5.7   soft:  0.8   idle: 90.3   Total:9.6
+     Sender CPU 10:   usr :  0.0   sys :  1.1   soft:  0.4   steal:  0.0   idle: 98.5   Total:1.5
+     Sender CPU 11:   usr :  0.1   sys :  1.2   soft:  0.4   steal:  0.0   idle: 98.4   Total:1.7
+     Sender CPU 12:   usr :  3.7   sys :  5.9   soft:  1.5   idle: 88.8   Total:11.1
+     Sender CPU 13:   usr :  2.9   sys :  5.0   soft:  1.6   steal:  0.0   idle: 90.4   Total:9.5
+     Sender CPU 14:   usr :  3.0   sys :  5.0   soft:  0.7   idle: 91.4   Total:8.7
+     Sender CPU 15:   usr :  0.1   sys :  1.0   soft:  0.1   idle: 98.8   Total:1.2
+     Sender CPU 16:   usr :  0.2   sys :  1.9   soft:  0.5   idle: 97.3   Total:2.6
+
+Test iperf3_1stream_default to Host: 10.3.60.2   (num tests: 10)
+       Throughput:   Mean: 39.6 Gbps   Min: 39.5 Gbps  Max: 39.6 Gbps   STDEV: 0.0   Retr: 0
+     Sender CPU 1:   usr :  0.0   sys :  0.0   soft:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.6   sys : 97.6   soft:  1.8   steal:  0.0   Total:100.0
+
+Test iperf3_1stream_default_pacing50 to Host: 10.3.60.2   (num tests: 10)
+       Throughput:   Mean: 38.0 Gbps   Min: 24.5 Gbps  Max: 39.6 Gbps   STDEV: 4.7   Retr: 0
+     Sender CPU 1:   usr :  0.0   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.6   sys : 96.1   soft:  2.0   steal:  0.0   idle:  1.3   Total:98.7
+
+Test iperf3_1stream_zerocopy to Host: 10.3.60.2   (num tests: 10)
+       Throughput:   Mean: 34.3 Gbps   Min: 30.4 Gbps  Max: 36.2 Gbps   STDEV: 1.7   Retr: 0
+     Sender CPU 1:   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr : 33.7   sys : 62.8   soft:  3.5   Total:100.0
+
+Test iperf3_1stream_zerocopy_pacing50 to Host: 10.3.60.2   (num tests: 10)
+       Throughput:   Mean: 49.8 Gbps   Min: 47.9 Gbps  Max: 50.0 Gbps   STDEV: 0.7   Retr: 0
+     Sender CPU 1:   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr : 28.6   sys : 61.8   soft:  9.6   steal:  0.0   Total:100.0
+
+Test iperf3_4streams_default to Host: 10.3.60.2   (num tests: 8)
+       Throughput:   Mean: 51.0 Gbps   Min: 50.7 Gbps  Max: 51.2 Gbps   STDEV: 0.2   Retr: 0
+     Sender CPU 1:   usr :  0.0   sys :  0.0   steal:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.0   sys :  0.0   steal:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 3:   sys :  0.1   soft:  0.1   steal:  0.0   idle: 99.8   Total:0.2
+     Sender CPU 4:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 5:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 6:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 7:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 8:   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  0.4   sys : 75.7   soft:  3.8   steal:  0.0   idle: 20.0   Total:79.9
+     Sender CPU 10:   usr :  0.4   sys : 75.6   soft:  4.0   steal:  0.0   idle: 20.0   Total:80.0
+     Sender CPU 11:   usr :  0.4   sys : 77.4   soft:  2.2   steal:  0.0   idle: 20.0   Total:80.0
+     Sender CPU 12:   usr :  0.5   sys : 77.7   soft:  1.9   steal:  0.0   idle: 20.0   Total:80.1
+     Sender CPU 13:   idle: 100.0   Total:0.0
+     Sender CPU 14:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 15:   usr :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 16:   usr :  0.1   sys :  0.0   idle: 99.9   Total:0.1
+
+Test iperf3_4streams_default_fq20 to Host: 10.3.60.2   (num tests: 10)
+       Throughput:   Mean: 47.7 Gbps   Min: 45.5 Gbps  Max: 51.5 Gbps   STDEV: 1.7   Retr: 0
+     Sender CPU 1:   sys :  0.0   soft:  0.0   steal:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.0   sys :  0.1   steal:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 3:   sys :  0.2   soft:  0.5   steal:  0.0   idle: 99.3   Total:0.7
+     Sender CPU 4:   usr :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 5:   usr :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 6:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 7:   idle: 100.0   Total:0.0
+     Sender CPU 8:   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  0.5   sys : 94.7   soft:  4.8   steal:  0.0   Total:100.0
+     Sender CPU 10:   usr :  0.6   sys : 81.7   soft: 10.3   steal:  0.0   idle:  7.4   Total:92.6
+     Sender CPU 11:   usr :  0.5   sys : 97.3   soft:  2.2   steal:  0.0   Total:100.0
+     Sender CPU 12:   usr :  0.5   sys : 97.4   soft:  2.1   steal:  0.0   Total:100.0
+     Sender CPU 13:   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 14:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 15:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 16:   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+
+Test iperf3_4streams_zerocopy to Host: 10.3.60.2   (num tests: 3)
+       Throughput:   Mean: 60.8 Gbps   Min: 57.4 Gbps  Max: 62.7 Gbps   STDEV: 2.9   Retr: 7817
+     Sender CPU 1:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.0   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 3:   sys :  0.1   soft:  0.8   idle: 99.1   Total:0.9
+     Sender CPU 4:   usr :  0.0   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 5:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 6:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 7:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 8:   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  0.2   sys :  3.2   soft:  1.2   steal:  0.0   idle: 95.5   Total:4.6
+     Sender CPU 10:   usr :  0.2   sys :  4.4   soft:  1.0   idle: 94.4   Total:5.6
+     Sender CPU 11:   usr :  0.2   sys :  3.1   soft:  0.3   idle: 96.4   Total:3.6
+     Sender CPU 12:   usr :  0.4   sys :  7.2   soft:  1.0   idle: 91.4   Total:8.6
+     Sender CPU 13:   idle: 100.0   Total:0.0
+     Sender CPU 14:   usr :  0.0   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 15:   usr :  0.0   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 16:   usr :  0.2   sys :  0.0   idle: 99.8   Total:0.2
+
+Test iperf3_4streams_zerocopy_fq20 to Host: 10.3.60.2   (num tests: 6)
+       Throughput:   Mean: 66.2 Gbps   Min: 30.7 Gbps  Max: 80.0 Gbps   STDEV: 21.6   Retr: 274
+     Sender CPU 1:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.0   sys :  0.0   iowait:  0.0   idle: 99.9   Total:0.0
+     Sender CPU 3:   usr :  0.0   sys :  0.0   soft:  0.3   idle: 99.6   Total:0.3
+     Sender CPU 4:   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 5:   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 6:   usr :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 7:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 8:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  3.9   sys :  9.7   soft:  2.5   idle: 84.0   Total:16.1
+     Sender CPU 10:   usr :  0.4   sys :  7.7   soft:  4.7   idle: 87.3   Total:12.8
+     Sender CPU 11:   usr :  0.7   sys : 10.0   soft:  0.4   steal:  0.0   idle: 89.0   Total:11.1
+     Sender CPU 12:   usr :  0.5   sys :  7.1   soft:  0.5   idle: 91.9   Total:8.1
+     Sender CPU 13:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 14:   idle: 100.0   Total:0.0
+     Sender CPU 15:   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 16:   usr :  0.1   sys :  0.0   idle: 99.9   Total:0.1
+
+Test iperf3_8streams_default to Host: 10.3.60.2   (num tests: 6)
+       Throughput:   Mean: 52.7 Gbps   Min: 52.4 Gbps  Max: 53.0 Gbps   STDEV: 0.2   Retr: 0
+     Sender CPU 1:   usr :  0.0   sys :  0.2   soft:  0.0   steal:  0.0   idle: 99.8   Total:0.2
+     Sender CPU 2:   usr :  0.0   sys :  0.2   steal:  0.0   idle: 99.8   Total:0.2
+     Sender CPU 3:   usr :  0.0   sys :  0.2   soft:  0.1   steal:  0.0   idle: 99.7   Total:0.3
+     Sender CPU 4:   usr :  0.0   sys :  0.1   iowait:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 5:   usr :  0.0   sys :  0.2   soft:  0.7   steal:  0.0   idle: 99.1   Total:0.9
+     Sender CPU 6:   usr :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 7:   usr :  0.0   sys :  0.3   idle: 99.7   Total:0.3
+     Sender CPU 8:   usr :  0.0   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 9:   usr :  0.4   sys : 75.7   soft:  3.8   steal:  0.0   idle: 20.0   Total:79.9
+     Sender CPU 10:   usr :  0.3   sys : 75.3   soft:  4.4   steal:  0.0   idle: 20.0   Total:80.0
+     Sender CPU 11:   usr :  0.3   sys : 78.0   soft:  1.7   steal:  0.0   idle: 20.0   Total:80.0
+     Sender CPU 12:   usr :  0.3   sys : 76.9   soft:  2.8   steal:  0.0   idle: 20.0   Total:80.0
+     Sender CPU 13:   usr :  0.3   sys : 77.6   soft:  2.1   idle: 20.0   Total:80.0
+     Sender CPU 14:   usr :  0.3   sys : 77.3   soft:  2.4   steal:  0.0   idle: 20.0   Total:80.0
+     Sender CPU 15:   usr :  0.3   sys : 75.6   soft:  4.1   steal:  0.0   idle: 20.0   Total:80.0
+     Sender CPU 16:   usr :  0.3   sys : 75.8   soft:  3.9   steal:  0.0   idle: 19.9   Total:80.0
+
+Test iperf3_8streams_default_fq10 to Host: 10.3.60.2   (num tests: 6)
+       Throughput:   Mean: 51.5 Gbps   Min: 50.5 Gbps  Max: 53.0 Gbps   STDEV: 1.2   Retr: 0
+     Sender CPU 1:   usr :  0.0   sys :  0.3   soft:  0.0   steal:  0.0   idle: 99.7   Total:0.3
+     Sender CPU 2:   usr :  0.0   sys :  0.1   iowait:  0.0   steal:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 3:   usr :  0.0   sys :  0.2   soft:  0.2   steal:  0.0   idle: 99.6   Total:0.4
+     Sender CPU 4:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 5:   usr :  0.0   sys :  0.2   soft:  0.6   steal:  0.0   idle: 99.2   Total:0.8
+     Sender CPU 6:   usr :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 7:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 8:   usr :  0.0   sys :  0.1   iowait:  0.0   idle: 99.8   Total:0.1
+     Sender CPU 9:   usr :  0.3   sys : 55.4   soft:  4.2   idle: 40.0   Total:59.9
+     Sender CPU 10:   usr :  0.2   sys : 56.2   soft:  3.6   steal:  0.0   idle: 40.0   Total:60.0
+     Sender CPU 11:   usr :  0.2   sys : 58.3   soft:  1.5   idle: 40.0   Total:60.0
+     Sender CPU 12:   usr :  0.2   sys : 52.7   soft:  1.4   steal:  0.0   idle: 45.7   Total:54.3
+     Sender CPU 13:   usr :  0.2   sys : 58.2   soft:  1.5   steal:  0.0   idle: 40.0   Total:59.9
+     Sender CPU 14:   usr :  0.2   sys : 58.3   soft:  1.5   steal:  0.0   idle: 40.0   Total:60.0
+     Sender CPU 15:   usr :  0.3   sys : 55.1   soft:  3.2   steal:  0.0   idle: 41.5   Total:58.6
+     Sender CPU 16:   usr :  0.3   sys : 56.9   soft:  2.9   steal:  0.0   idle: 39.9   Total:60.1
+
+Test iperf3_8streams_zerocopy to Host: 10.3.60.2   (num tests: 4)
+       Throughput:   Mean: 58.1 Gbps   Min: 48.9 Gbps  Max: 65.4 Gbps   STDEV: 7.8   Retr: 1115
+     Sender CPU 1:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.0   sys :  0.2   iowait:  0.0   idle: 99.8   Total:0.2
+     Sender CPU 3:   sys :  0.1   soft:  0.3   steal:  0.0   idle: 99.6   Total:0.4
+     Sender CPU 4:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 5:   sys :  0.1   iowait:  0.0   soft:  0.8   idle: 99.0   Total:0.9
+     Sender CPU 6:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 7:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 8:   usr :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  0.2   sys :  3.2   soft:  1.0   steal:  0.0   idle: 95.6   Total:4.4
+     Sender CPU 10:   usr :  0.1   sys :  2.3   iowait:  0.0   soft:  0.6   idle: 96.9   Total:3.0
+     Sender CPU 11:   usr :  0.2   sys :  2.3   soft:  0.3   steal:  0.0   idle: 97.2   Total:2.8
+     Sender CPU 12:   usr :  0.2   sys :  3.9   soft:  0.5   steal:  0.0   idle: 95.3   Total:4.6
+     Sender CPU 13:   usr :  0.3   sys :  4.1   soft:  0.4   idle: 95.3   Total:4.8
+     Sender CPU 14:   usr :  0.3   sys :  4.2   soft:  0.3   steal:  0.0   idle: 95.2   Total:4.8
+     Sender CPU 15:   usr :  0.2   sys :  2.5   soft:  0.7   idle: 96.6   Total:3.4
+     Sender CPU 16:   usr :  0.3   sys :  2.3   soft:  0.7   steal:  0.0   idle: 96.8   Total:3.3
+
+Test iperf3_8streams_zerocopy_fq10 to Host: 10.3.60.2   (num tests: 5)
+       Throughput:   Mean: 73.8 Gbps   Min: 52.0 Gbps  Max: 80.0 Gbps   STDEV: 12.2   Retr: 111
+     Sender CPU 1:   usr :  0.0   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.0   sys :  0.1   iowait:  0.0   steal:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 3:   sys :  0.1   iowait:  0.0   soft:  0.3   steal:  0.0   idle: 99.6   Total:0.4
+     Sender CPU 4:   usr :  0.0   sys :  0.0   iowait:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 5:   usr :  0.0   sys :  0.1   soft:  0.9   idle: 99.0   Total:1.0
+     Sender CPU 6:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 7:   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 8:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  0.2   sys :  3.5   soft:  1.1   steal:  0.0   idle: 95.2   Total:4.8
+     Sender CPU 10:   usr :  0.2   sys :  3.3   soft:  1.2   idle: 95.3   Total:4.7
+     Sender CPU 11:   usr :  0.3   sys :  4.6   soft:  0.2   steal:  0.0   idle: 94.8   Total:5.1
+     Sender CPU 12:   usr :  0.3   sys :  4.6   soft:  0.2   steal:  0.0   idle: 94.9   Total:5.1
+     Sender CPU 13:   usr :  0.4   sys :  5.7   soft:  0.2   steal:  0.0   idle: 93.7   Total:6.3
+     Sender CPU 14:   usr :  0.4   sys :  4.7   soft:  0.1   idle: 94.8   Total:5.2
+     Sender CPU 15:   usr :  0.1   sys :  3.0   soft:  1.1   idle: 95.7   Total:4.2
+     Sender CPU 16:   usr :  0.3   sys :  3.2   soft:  1.0   steal:  0.0   idle: 95.6   Total:4.5
+
+
+Result Summary, sorted by Average Throughput:
+IP Address: 10.3.54.2
+    Test Name: iperf3_8streams_zerocopy_fq10, Ave Throughput: 80.0 Gbps (std: 0.0, min: 80.0, max: 80.0),  Retr: 0
+    Test Name: iperf3_4streams_zerocopy_fq20, Ave Throughput: 79.2 Gbps (std: 2.4, min: 72.5, max: 80.0),  Retr: 242
+    Test Name: iperf3_4streams_default_fq20, Ave Throughput: 76.8 Gbps (std: 5.0, min: 68.5, max: 80.0),  Retr: 0
+    Test Name: iperf3_8streams_default_fq10, Ave Throughput: 69.8 Gbps (std: 3.3, min: 64.3, max: 75.0),  Retr: 0
+    Test Name: iperf3_8streams_zerocopy, Ave Throughput: 68.2 Gbps (std: 7.8, min: 59.3, max: 77.2),  Retr: 79151
+    Test Name: iperf3_8streams_default, Ave Throughput: 62.0 Gbps (std: 2.3, min: 57.3, max: 64.4),  Retr: 0
+    Test Name: iperf3_4streams_zerocopy, Ave Throughput: 57.3 Gbps (std: 3.1, min: 53.2, max: 62.6),  Retr: 273
+    Test Name: iperf3_4streams_default, Ave Throughput: 57.0 Gbps (std: 3.9, min: 54.2, max: 67.2),  Retr: 966
+    Test Name: iperf3_1stream_zerocopy_pacing50, Ave Throughput: 49.7 Gbps (std: 0.6, min: 48.5, max: 50.0),  Retr: 0
+    Test Name: iperf3_1stream_default_pacing50, Ave Throughput: 47.1 Gbps (std: 6.0, min: 35.4, max: 50.0),  Retr: 0
+    Test Name: iperf3_1stream_default, Ave Throughput: 43.6 Gbps (std: 1.1, min: 42.0, max: 44.9),  Retr: 0
+    Test Name: iperf3_1stream_zerocopy, Ave Throughput: 41.5 Gbps (std: 0.8, min: 40.4, max: 42.8),  Retr: 0
+IP Address: 10.3.56.2
+    Test Name: iperf3_8streams_zerocopy_fq10, Ave Throughput: 74.5 Gbps (std: 2.9, min: 69.6, max: 80.0),  Retr: 778
+    Test Name: iperf3_4streams_zerocopy_fq20, Ave Throughput: 54.6 Gbps (std: 20.7, min: 13.7, max: 79.4),  Retr: 7981
+    Test Name: iperf3_8streams_default_fq10, Ave Throughput: 53.1 Gbps (std: 0.9, min: 52.1, max: 54.7),  Retr: 76
+    Test Name: iperf3_8streams_default, Ave Throughput: 52.0 Gbps (std: 2.9, min: 48.9, max: 55.2),  Retr: 0
+    Test Name: iperf3_4streams_zerocopy, Ave Throughput: 50.0 Gbps (std: 10.5, min: 30.7, max: 67.2),  Retr: 1438
+    Test Name: iperf3_1stream_zerocopy_pacing50, Ave Throughput: 49.3 Gbps (std: 2.2, min: 42.9, max: 50.0),  Retr: 197
+    Test Name: iperf3_4streams_default_fq20, Ave Throughput: 48.2 Gbps (std: 6.8, min: 33.3, max: 54.9),  Retr: 3548
+    Test Name: iperf3_4streams_default, Ave Throughput: 47.3 Gbps (std: 10.4, min: 27.0, max: 55.3),  Retr: 4673
+    Test Name: iperf3_8streams_zerocopy, Ave Throughput: 46.1 Gbps (std: 8.3, min: 27.5, max: 54.4),  Retr: 1748
+    Test Name: iperf3_1stream_default_pacing50, Ave Throughput: 36.7 Gbps (std: 8.4, min: 13.3, max: 40.2),  Retr: 828
+    Test Name: iperf3_1stream_default, Ave Throughput: 35.2 Gbps (std: 8.7, min: 19.6, max: 40.8),  Retr: 1790
+    Test Name: iperf3_1stream_zerocopy, Ave Throughput: 32.3 Gbps (std: 7.3, min: 19.0, max: 38.5),  Retr: 949
+IP Address: 10.3.58.9
+    Test Name: iperf3_8streams_default, Ave Throughput: 48.2 Gbps (std: 5.2, min: 37.0, max: 51.8),  Retr: 31
+    Test Name: iperf3_4streams_default, Ave Throughput: 45.3 Gbps (std: 9.5, min: 21.9, max: 50.6),  Retr: 14446
+    Test Name: iperf3_1stream_zerocopy_pacing50, Ave Throughput: 45.3 Gbps (std: 11.2, min: 13.7, max: 50.0),  Retr: 13752
+    Test Name: iperf3_4streams_default_fq20, Ave Throughput: 43.9 Gbps (std: 5.4, min: 34.3, max: 51.0),  Retr: 3719
+    Test Name: iperf3_8streams_default_fq10, Ave Throughput: 42.9 Gbps (std: 7.8, min: 23.8, max: 51.1),  Retr: 46
+    Test Name: iperf3_8streams_zerocopy, Ave Throughput: 40.2 Gbps (std: 6.5, min: 34.3, max: 49.3),  Retr: 621
+    Test Name: iperf3_1stream_default, Ave Throughput: 34.8 Gbps (std: 9.2, min: 10.7, max: 39.6),  Retr: 421
+    Test Name: iperf3_4streams_zerocopy, Ave Throughput: 32.5 Gbps (std: 7.4, min: 22.4, max: 43.1),  Retr: 2453
+    Test Name: iperf3_1stream_default_pacing50, Ave Throughput: 32.4 Gbps (std: 12.0, min: 4.6, max: 39.3),  Retr: 5470
+    Test Name: iperf3_4streams_zerocopy_fq20, Ave Throughput: 30.8 Gbps (std: 2.1, min: 28.9, max: 34.2),  Retr: 0
+    Test Name: iperf3_1stream_zerocopy, Ave Throughput: 26.5 Gbps (std: 5.9, min: 12.8, max: 33.6),  Retr: 0
+    Test Name: iperf3_8streams_zerocopy_fq10, Ave Throughput: 20.5 Gbps (std: 2.3, min: 18.2, max: 22.9),  Retr: 0
+IP Address: 10.3.60.2
+    Test Name: iperf3_8streams_zerocopy_fq10, Ave Throughput: 73.8 Gbps (std: 12.2, min: 52.0, max: 80.0),  Retr: 111
+    Test Name: iperf3_4streams_zerocopy_fq20, Ave Throughput: 66.2 Gbps (std: 21.6, min: 30.7, max: 80.0),  Retr: 274
+    Test Name: iperf3_4streams_zerocopy, Ave Throughput: 60.8 Gbps (std: 2.9, min: 57.4, max: 62.7),  Retr: 7817
+    Test Name: iperf3_8streams_zerocopy, Ave Throughput: 58.1 Gbps (std: 7.8, min: 48.9, max: 65.4),  Retr: 1115
+    Test Name: iperf3_8streams_default, Ave Throughput: 52.7 Gbps (std: 0.2, min: 52.4, max: 53.0),  Retr: 0
+    Test Name: iperf3_8streams_default_fq10, Ave Throughput: 51.5 Gbps (std: 1.2, min: 50.5, max: 53.0),  Retr: 0
+    Test Name: iperf3_4streams_default, Ave Throughput: 51.0 Gbps (std: 0.2, min: 50.7, max: 51.2),  Retr: 0
+    Test Name: iperf3_1stream_zerocopy_pacing50, Ave Throughput: 49.8 Gbps (std: 0.7, min: 47.9, max: 50.0),  Retr: 0
+    Test Name: iperf3_4streams_default_fq20, Ave Throughput: 47.7 Gbps (std: 1.7, min: 45.5, max: 51.5),  Retr: 0
+    Test Name: iperf3_1stream_default, Ave Throughput: 39.6 Gbps (std: 0.0, min: 39.5, max: 39.6),  Retr: 0
+    Test Name: iperf3_1stream_default_pacing50, Ave Throughput: 38.0 Gbps (std: 4.7, min: 24.5, max: 39.6),  Retr: 0
+    Test Name: iperf3_1stream_zerocopy, Ave Throughput: 34.3 Gbps (std: 1.7, min: 30.4, max: 36.2),  Retr: 0

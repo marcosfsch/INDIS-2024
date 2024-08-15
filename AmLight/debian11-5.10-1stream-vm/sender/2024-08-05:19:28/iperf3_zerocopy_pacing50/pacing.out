@@ -1,0 +1,6 @@
++ echo 'setting interface eth1 to paced rate of '
+setting interface eth1 to paced rate of 
++ tc qdisc del dev eth1 root
+Error: Cannot delete qdisc with handle of zero.
++ '[' -n '' ']'
++ tc qdisc show dev eth1

@@ -1,0 +1,66 @@
+
+Collecting Results from all files...
+
+ Got iperf3 data from 8 files
+
+ Got mpstat data from 8 sender files and 0 receiver files
+
+Computing CPU Averages...
+
+Summary of all testing: 
+
+
+Test iperf3_default to Host: 10.3.54.2   (num tests: 10)
+       Throughput:   Mean: 53.8 Gbps   Min: 41.3 Gbps  Max: 62.5 Gbps   STDEV: 7.2   Retr: 0
+     Sender CPU 1:   sys :  0.0   soft:  0.2   steal:  0.0   idle: 99.8   Total:0.2
+     Sender CPU 2:   usr :  0.8   sys : 77.4   soft:  9.3   steal:  0.0   idle: 12.5   Total:87.5
+
+Test iperf3_zerocopy_pacing50 to Host: 10.3.54.2   (num tests: 10)
+       Throughput:   Mean: 50.0 Gbps   Min: 50.0 Gbps  Max: 50.0 Gbps   STDEV: 0.0   Retr: 0
+     Sender CPU 1:   sys :  0.0   soft:  0.4   steal:  0.0   idle: 99.6   Total:0.4
+     Sender CPU 2:   usr :  0.5   sys : 17.4   soft:  2.8   steal:  0.0   idle: 79.3   Total:20.7
+
+Test iperf3_default to Host: 10.3.56.2   (num tests: 10)
+       Throughput:   Mean: 41.0 Gbps   Min: 40.1 Gbps  Max: 41.3 Gbps   STDEV: 0.4   Retr: 0
+     Sender CPU 1:   sys :  0.0   soft:  0.1   steal:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 2:   usr :  0.6   sys : 96.7   soft:  2.8   steal:  0.0   Total:100.1
+
+Test iperf3_zerocopy_pacing50 to Host: 10.3.56.2   (num tests: 10)
+       Throughput:   Mean: 47.4 Gbps   Min: 23.8 Gbps  Max: 50.0 Gbps   STDEV: 8.3   Retr: 757
+     Sender CPU 1:   sys :  0.0   soft:  0.3   steal:  0.0   idle: 99.7   Total:0.3
+     Sender CPU 2:   usr : 23.8   sys : 50.9   soft: 17.3   steal:  0.0   idle:  8.0   Total:92.0
+
+Test iperf3_default to Host: 10.3.58.9   (num tests: 10)
+       Throughput:   Mean: 39.4 Gbps   Min: 37.7 Gbps  Max: 40.3 Gbps   STDEV: 0.8   Retr: 0
+     Sender CPU 1:   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.6   sys : 95.1   soft:  3.9   steal:  0.0   idle:  0.5   Total:99.6
+
+Test iperf3_zerocopy_pacing50 to Host: 10.3.58.9   (num tests: 10)
+       Throughput:   Mean: 50.0 Gbps   Min: 49.7 Gbps  Max: 50.0 Gbps   STDEV: 0.1   Retr: 1128
+     Sender CPU 1:   sys :  0.0   steal:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr : 30.0   sys : 64.2   soft:  5.8   steal:  0.0   idle:  0.0   Total:100.0
+
+Test iperf3_default to Host: 10.3.60.2   (num tests: 10)
+       Throughput:   Mean: 40.1 Gbps   Min: 39.3 Gbps  Max: 40.3 Gbps   STDEV: 0.3   Retr: 0
+     Sender CPU 1:   sys :  0.0   soft:  0.1   steal:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 2:   usr :  0.6   sys : 96.6   soft:  2.9   steal:  0.0   Total:100.1
+
+Test iperf3_zerocopy_pacing50 to Host: 10.3.60.2   (num tests: 10)
+       Throughput:   Mean: 50.0 Gbps   Min: 50.0 Gbps  Max: 50.0 Gbps   STDEV: 0.0   Retr: 0
+     Sender CPU 1:   sys :  0.0   soft:  0.2   steal:  0.0   idle: 99.7   Total:0.2
+     Sender CPU 2:   usr : 28.7   sys : 58.9   soft: 12.4   steal:  0.0   Total:100.0
+
+
+Result Summary, sorted by Average Throughput:
+IP Address: 10.3.54.2
+    Test Name: iperf3_default, Ave Throughput: 53.8 Gbps (std: 7.2, min: 41.3, max: 62.5),  Retr: 0
+    Test Name: iperf3_zerocopy_pacing50, Ave Throughput: 50.0 Gbps (std: 0.0, min: 50.0, max: 50.0),  Retr: 0
+IP Address: 10.3.56.2
+    Test Name: iperf3_zerocopy_pacing50, Ave Throughput: 47.4 Gbps (std: 8.3, min: 23.8, max: 50.0),  Retr: 757
+    Test Name: iperf3_default, Ave Throughput: 41.0 Gbps (std: 0.4, min: 40.1, max: 41.3),  Retr: 0
+IP Address: 10.3.58.9
+    Test Name: iperf3_zerocopy_pacing50, Ave Throughput: 50.0 Gbps (std: 0.1, min: 49.7, max: 50.0),  Retr: 1128
+    Test Name: iperf3_default, Ave Throughput: 39.4 Gbps (std: 0.8, min: 37.7, max: 40.3),  Retr: 0
+IP Address: 10.3.60.2
+    Test Name: iperf3_zerocopy_pacing50, Ave Throughput: 50.0 Gbps (std: 0.0, min: 50.0, max: 50.0),  Retr: 0
+    Test Name: iperf3_default, Ave Throughput: 40.1 Gbps (std: 0.3, min: 39.3, max: 40.3),  Retr: 0

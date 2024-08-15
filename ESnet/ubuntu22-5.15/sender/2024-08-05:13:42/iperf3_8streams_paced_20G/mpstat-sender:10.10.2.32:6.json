@@ -1,0 +1,602 @@
+{"sysstat": {
+	"hosts": [
+		{
+			"nodename": "lbnl-dtn2.testbed100.es.net",
+			"sysname": "Linux",
+			"release": "5.15.0-117-generic",
+			"machine": "x86_64",
+			"number-of-cpus": 32,
+			"date": "08/05/2024",
+			"statistics": [
+				{
+					"timestamp": "04:34:18 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "1", "usr": 0.50, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.50},
+						{"cpu": "2", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "4", "usr": 0.50, "nice": 0.00, "sys": 0.50, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.00},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "8", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "9", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "10", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "11", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "12", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "13", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "14", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "15", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00}
+					]
+				},
+				{
+					"timestamp": "04:34:20 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "1", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "2", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "4", "usr": 0.50, "nice": 0.00, "sys": 0.50, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.00},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "8", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "9", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "10", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "11", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "12", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "13", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "14", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "15", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00}
+					]
+				},
+				{
+					"timestamp": "04:34:22 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "1", "usr": 0.50, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.50},
+						{"cpu": "2", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "4", "usr": 0.50, "nice": 0.00, "sys": 0.50, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.00},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "8", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "9", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "10", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "11", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "12", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "13", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "14", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "15", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00}
+					]
+				},
+				{
+					"timestamp": "04:34:24 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.83, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.17},
+						{"cpu": "1", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.20, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.80},
+						{"cpu": "2", "usr": 0.00, "nice": 0.00, "sys": 0.52, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.96},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "4", "usr": 0.00, "nice": 0.00, "sys": 0.87, "iowait": 0.00, "irq": 0.00, "soft": 26.09, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 73.04},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 0.70, "iowait": 0.00, "irq": 0.00, "soft": 4.93, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 94.37},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.04, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.96},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.20, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.80},
+						{"cpu": "8", "usr": 0.00, "nice": 0.00, "sys": 54.29, "iowait": 0.00, "irq": 0.00, "soft": 0.57, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.14},
+						{"cpu": "9", "usr": 0.00, "nice": 0.00, "sys": 52.35, "iowait": 0.00, "irq": 0.00, "soft": 0.59, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 47.06},
+						{"cpu": "10", "usr": 0.57, "nice": 0.00, "sys": 47.73, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 51.70},
+						{"cpu": "11", "usr": 1.68, "nice": 0.00, "sys": 53.63, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.13},
+						{"cpu": "12", "usr": 1.16, "nice": 0.00, "sys": 51.45, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 47.40},
+						{"cpu": "13", "usr": 0.57, "nice": 0.00, "sys": 51.15, "iowait": 0.00, "irq": 0.00, "soft": 1.15, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 47.13},
+						{"cpu": "14", "usr": 0.56, "nice": 0.00, "sys": 50.56, "iowait": 0.00, "irq": 0.00, "soft": 1.12, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 47.75},
+						{"cpu": "15", "usr": 1.13, "nice": 0.00, "sys": 52.54, "iowait": 0.00, "irq": 0.00, "soft": 1.13, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.20}
+					]
+				},
+				{
+					"timestamp": "04:34:26 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.62, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.38},
+						{"cpu": "1", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "2", "usr": 0.52, "nice": 0.00, "sys": 0.52, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.95},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "4", "usr": 0.00, "nice": 0.00, "sys": 1.74, "iowait": 0.00, "irq": 0.00, "soft": 25.22, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 73.04},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 7.59, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 92.41},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.48},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 2.37, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 97.63},
+						{"cpu": "8", "usr": 0.59, "nice": 0.00, "sys": 49.41, "iowait": 0.00, "irq": 0.00, "soft": 0.59, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 49.41},
+						{"cpu": "9", "usr": 0.56, "nice": 0.00, "sys": 52.81, "iowait": 0.00, "irq": 0.00, "soft": 1.12, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.51},
+						{"cpu": "10", "usr": 1.12, "nice": 0.00, "sys": 53.63, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.69},
+						{"cpu": "11", "usr": 0.58, "nice": 0.00, "sys": 53.22, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 46.20},
+						{"cpu": "12", "usr": 0.00, "nice": 0.00, "sys": 54.34, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.66},
+						{"cpu": "13", "usr": 1.12, "nice": 0.00, "sys": 54.19, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.69},
+						{"cpu": "14", "usr": 1.68, "nice": 0.00, "sys": 50.84, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 46.93},
+						{"cpu": "15", "usr": 1.71, "nice": 0.00, "sys": 50.86, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 47.43}
+					]
+				},
+				{
+					"timestamp": "04:34:28 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.22, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.78},
+						{"cpu": "1", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.18, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.82},
+						{"cpu": "2", "usr": 0.00, "nice": 0.00, "sys": 0.52, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.48},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.48},
+						{"cpu": "4", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 22.22, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 77.78},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 4.29, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 95.71},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.48},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.20, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.80},
+						{"cpu": "8", "usr": 0.58, "nice": 0.00, "sys": 52.60, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 46.82},
+						{"cpu": "9", "usr": 0.57, "nice": 0.00, "sys": 54.60, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.83},
+						{"cpu": "10", "usr": 0.57, "nice": 0.00, "sys": 56.32, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 43.10},
+						{"cpu": "11", "usr": 0.55, "nice": 0.00, "sys": 56.91, "iowait": 0.00, "irq": 0.00, "soft": 0.55, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 41.99},
+						{"cpu": "12", "usr": 1.16, "nice": 0.00, "sys": 48.26, "iowait": 0.00, "irq": 0.00, "soft": 1.16, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 49.42},
+						{"cpu": "13", "usr": 0.00, "nice": 0.00, "sys": 52.30, "iowait": 0.00, "irq": 0.00, "soft": 1.15, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 46.55},
+						{"cpu": "14", "usr": 0.55, "nice": 0.00, "sys": 53.04, "iowait": 0.00, "irq": 0.00, "soft": 0.55, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.86},
+						{"cpu": "15", "usr": 0.56, "nice": 0.00, "sys": 52.25, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 46.63}
+					]
+				},
+				{
+					"timestamp": "04:34:30 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.62, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.38},
+						{"cpu": "1", "usr": 0.00, "nice": 0.00, "sys": 0.61, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.39},
+						{"cpu": "2", "usr": 0.00, "nice": 0.00, "sys": 0.52, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.48},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.48},
+						{"cpu": "4", "usr": 0.00, "nice": 0.00, "sys": 1.71, "iowait": 0.00, "irq": 0.00, "soft": 27.35, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 70.94},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 1.37, "iowait": 0.00, "irq": 0.00, "soft": 5.48, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 93.15},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.48},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.18, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.82},
+						{"cpu": "8", "usr": 0.00, "nice": 0.00, "sys": 53.55, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 46.45},
+						{"cpu": "9", "usr": 0.58, "nice": 0.00, "sys": 50.88, "iowait": 0.00, "irq": 0.00, "soft": 1.17, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 47.37},
+						{"cpu": "10", "usr": 0.57, "nice": 0.00, "sys": 56.00, "iowait": 0.00, "irq": 0.00, "soft": 0.57, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 42.86},
+						{"cpu": "11", "usr": 0.57, "nice": 0.00, "sys": 53.45, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.98},
+						{"cpu": "12", "usr": 1.14, "nice": 0.00, "sys": 51.43, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 47.43},
+						{"cpu": "13", "usr": 0.58, "nice": 0.00, "sys": 50.00, "iowait": 0.00, "irq": 0.00, "soft": 0.58, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 48.84},
+						{"cpu": "14", "usr": 0.00, "nice": 0.00, "sys": 54.49, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.51},
+						{"cpu": "15", "usr": 0.58, "nice": 0.00, "sys": 52.60, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 46.82}
+					]
+				},
+				{
+					"timestamp": "04:34:32 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.83, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.17},
+						{"cpu": "1", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.21, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.79},
+						{"cpu": "2", "usr": 0.00, "nice": 0.00, "sys": 1.04, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.45},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.52, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.96},
+						{"cpu": "4", "usr": 0.00, "nice": 0.00, "sys": 1.75, "iowait": 0.00, "irq": 0.00, "soft": 23.68, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 74.56},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 1.40, "iowait": 0.00, "irq": 0.00, "soft": 5.59, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 93.01},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.44},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.60, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.40},
+						{"cpu": "8", "usr": 1.10, "nice": 0.00, "sys": 53.59, "iowait": 0.00, "irq": 0.00, "soft": 1.10, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.20},
+						{"cpu": "9", "usr": 0.00, "nice": 0.00, "sys": 53.98, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 46.02},
+						{"cpu": "10", "usr": 0.58, "nice": 0.00, "sys": 52.02, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 47.40},
+						{"cpu": "11", "usr": 0.00, "nice": 0.00, "sys": 53.98, "iowait": 0.00, "irq": 0.00, "soft": 0.57, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.45},
+						{"cpu": "12", "usr": 0.60, "nice": 0.00, "sys": 50.00, "iowait": 0.00, "irq": 0.00, "soft": 0.60, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 48.81},
+						{"cpu": "13", "usr": 1.69, "nice": 0.00, "sys": 51.98, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.76},
+						{"cpu": "14", "usr": 0.56, "nice": 0.00, "sys": 53.67, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.20},
+						{"cpu": "15", "usr": 0.00, "nice": 0.00, "sys": 54.34, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.66}
+					]
+				},
+				{
+					"timestamp": "04:34:34 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.61, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.39},
+						{"cpu": "1", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.20, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.80},
+						{"cpu": "2", "usr": 0.52, "nice": 0.00, "sys": 0.52, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.96},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "4", "usr": 0.00, "nice": 0.00, "sys": 0.91, "iowait": 0.00, "irq": 0.00, "soft": 21.82, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 77.27},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 5.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 95.00},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.04, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.96},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.60, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.40},
+						{"cpu": "8", "usr": 0.58, "nice": 0.00, "sys": 53.18, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 46.24},
+						{"cpu": "9", "usr": 0.56, "nice": 0.00, "sys": 56.18, "iowait": 0.00, "irq": 0.00, "soft": 1.12, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 42.13},
+						{"cpu": "10", "usr": 1.14, "nice": 0.00, "sys": 51.43, "iowait": 0.00, "irq": 0.00, "soft": 0.57, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 46.86},
+						{"cpu": "11", "usr": 0.00, "nice": 0.00, "sys": 53.76, "iowait": 0.00, "irq": 0.00, "soft": 0.58, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.66},
+						{"cpu": "12", "usr": 0.58, "nice": 0.00, "sys": 53.49, "iowait": 0.00, "irq": 0.00, "soft": 0.58, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.35},
+						{"cpu": "13", "usr": 0.58, "nice": 0.00, "sys": 53.49, "iowait": 0.00, "irq": 0.00, "soft": 0.58, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.35},
+						{"cpu": "14", "usr": 0.57, "nice": 0.00, "sys": 52.27, "iowait": 0.00, "irq": 0.00, "soft": 0.57, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 46.59},
+						{"cpu": "15", "usr": 1.09, "nice": 0.00, "sys": 52.72, "iowait": 0.00, "irq": 0.00, "soft": 1.09, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.11}
+					]
+				},
+				{
+					"timestamp": "04:34:36 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.84, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.16},
+						{"cpu": "1", "usr": 0.00, "nice": 0.00, "sys": 0.59, "iowait": 0.00, "irq": 0.00, "soft": 1.18, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.22},
+						{"cpu": "2", "usr": 0.52, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.48},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "4", "usr": 0.00, "nice": 0.00, "sys": 0.88, "iowait": 0.00, "irq": 0.00, "soft": 24.78, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 74.34},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 4.93, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 95.07},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 2.05, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 97.95},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.76, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.24},
+						{"cpu": "8", "usr": 0.55, "nice": 0.00, "sys": 55.80, "iowait": 0.00, "irq": 0.00, "soft": 0.55, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 43.09},
+						{"cpu": "9", "usr": 0.58, "nice": 0.00, "sys": 54.34, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.09},
+						{"cpu": "10", "usr": 0.57, "nice": 0.00, "sys": 51.70, "iowait": 0.00, "irq": 0.00, "soft": 0.57, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 47.16},
+						{"cpu": "11", "usr": 1.12, "nice": 0.00, "sys": 55.62, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 43.26},
+						{"cpu": "12", "usr": 0.57, "nice": 0.00, "sys": 53.98, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.45},
+						{"cpu": "13", "usr": 0.56, "nice": 0.00, "sys": 56.50, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 42.37},
+						{"cpu": "14", "usr": 0.61, "nice": 0.00, "sys": 49.39, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 50.00},
+						{"cpu": "15", "usr": 0.55, "nice": 0.00, "sys": 55.80, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 43.65}
+					]
+				},
+				{
+					"timestamp": "04:34:38 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.23, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.77},
+						{"cpu": "1", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.20, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.80},
+						{"cpu": "2", "usr": 0.00, "nice": 0.00, "sys": 0.52, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.96},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.04, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.96},
+						{"cpu": "4", "usr": 0.00, "nice": 0.00, "sys": 0.92, "iowait": 0.00, "irq": 0.00, "soft": 22.02, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 77.06},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 5.63, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 94.37},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.48},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.76, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.24},
+						{"cpu": "8", "usr": 0.54, "nice": 0.00, "sys": 53.80, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.65},
+						{"cpu": "9", "usr": 0.00, "nice": 0.00, "sys": 54.44, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.56},
+						{"cpu": "10", "usr": 0.00, "nice": 0.00, "sys": 54.29, "iowait": 0.00, "irq": 0.00, "soft": 1.14, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.57},
+						{"cpu": "11", "usr": 0.00, "nice": 0.00, "sys": 55.49, "iowait": 0.00, "irq": 0.00, "soft": 0.58, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 43.93},
+						{"cpu": "12", "usr": 1.15, "nice": 0.00, "sys": 52.87, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.98},
+						{"cpu": "13", "usr": 0.57, "nice": 0.00, "sys": 53.71, "iowait": 0.00, "irq": 0.00, "soft": 0.57, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.14},
+						{"cpu": "14", "usr": 0.57, "nice": 0.00, "sys": 54.86, "iowait": 0.00, "irq": 0.00, "soft": 0.57, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.00},
+						{"cpu": "15", "usr": 0.55, "nice": 0.00, "sys": 57.92, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 41.53}
+					]
+				},
+				{
+					"timestamp": "04:34:40 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.61, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.39},
+						{"cpu": "1", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 2.38, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 97.62},
+						{"cpu": "2", "usr": 0.52, "nice": 0.00, "sys": 0.52, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.44},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.48},
+						{"cpu": "4", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 25.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 75.00},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 5.63, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 94.37},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.52, "iowait": 0.00, "irq": 0.00, "soft": 1.55, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 97.94},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.19, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.81},
+						{"cpu": "8", "usr": 0.56, "nice": 0.00, "sys": 56.67, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 42.22},
+						{"cpu": "9", "usr": 1.16, "nice": 0.00, "sys": 52.91, "iowait": 0.00, "irq": 0.00, "soft": 1.16, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.77},
+						{"cpu": "10", "usr": 0.00, "nice": 0.00, "sys": 53.22, "iowait": 0.00, "irq": 0.00, "soft": 0.58, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 46.20},
+						{"cpu": "11", "usr": 1.16, "nice": 0.00, "sys": 54.34, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.51},
+						{"cpu": "12", "usr": 0.57, "nice": 0.00, "sys": 52.30, "iowait": 0.00, "irq": 0.00, "soft": 1.15, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.98},
+						{"cpu": "13", "usr": 1.15, "nice": 0.00, "sys": 54.60, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.25},
+						{"cpu": "14", "usr": 0.57, "nice": 0.00, "sys": 49.71, "iowait": 0.00, "irq": 0.00, "soft": 0.57, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 49.14},
+						{"cpu": "15", "usr": 1.14, "nice": 0.00, "sys": 52.57, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 46.29}
+					]
+				},
+				{
+					"timestamp": "04:34:42 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.82, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.18},
+						{"cpu": "1", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.61, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.39},
+						{"cpu": "2", "usr": 0.00, "nice": 0.00, "sys": 0.52, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.97},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "4", "usr": 0.00, "nice": 0.00, "sys": 0.89, "iowait": 0.00, "irq": 0.00, "soft": 24.11, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 75.00},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 0.70, "iowait": 0.00, "irq": 0.00, "soft": 5.59, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 93.71},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.04, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.96},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.19, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.81},
+						{"cpu": "8", "usr": 0.59, "nice": 0.00, "sys": 50.89, "iowait": 0.00, "irq": 0.00, "soft": 0.59, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 47.93},
+						{"cpu": "9", "usr": 0.00, "nice": 0.00, "sys": 55.37, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.63},
+						{"cpu": "10", "usr": 0.57, "nice": 0.00, "sys": 56.90, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 42.53},
+						{"cpu": "11", "usr": 0.58, "nice": 0.00, "sys": 53.49, "iowait": 0.00, "irq": 0.00, "soft": 0.58, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.35},
+						{"cpu": "12", "usr": 1.16, "nice": 0.00, "sys": 50.29, "iowait": 0.00, "irq": 0.00, "soft": 1.16, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 47.40},
+						{"cpu": "13", "usr": 0.00, "nice": 0.00, "sys": 55.43, "iowait": 0.00, "irq": 0.00, "soft": 0.57, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.00},
+						{"cpu": "14", "usr": 1.13, "nice": 0.00, "sys": 51.41, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 46.89},
+						{"cpu": "15", "usr": 0.00, "nice": 0.00, "sys": 54.02, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.98}
+					]
+				},
+				{
+					"timestamp": "04:34:44 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.81, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.19},
+						{"cpu": "1", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.79, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.21},
+						{"cpu": "2", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.53, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.47},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "4", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 24.78, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 75.22},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 4.90, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 95.10},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.04, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.96},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.59, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.41},
+						{"cpu": "8", "usr": 0.56, "nice": 0.00, "sys": 54.24, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.63},
+						{"cpu": "9", "usr": 0.59, "nice": 0.00, "sys": 52.35, "iowait": 0.00, "irq": 0.00, "soft": 1.18, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.88},
+						{"cpu": "10", "usr": 0.57, "nice": 0.00, "sys": 53.45, "iowait": 0.00, "irq": 0.00, "soft": 0.57, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.40},
+						{"cpu": "11", "usr": 0.57, "nice": 0.00, "sys": 53.98, "iowait": 0.00, "irq": 0.00, "soft": 1.14, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.32},
+						{"cpu": "12", "usr": 0.56, "nice": 0.00, "sys": 51.12, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 47.75},
+						{"cpu": "13", "usr": 1.69, "nice": 0.00, "sys": 53.11, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.20},
+						{"cpu": "14", "usr": 0.56, "nice": 0.00, "sys": 52.54, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 46.33},
+						{"cpu": "15", "usr": 0.56, "nice": 0.00, "sys": 57.22, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 42.22}
+					]
+				},
+				{
+					"timestamp": "04:34:46 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.60, "iowait": 0.00, "irq": 0.00, "soft": 1.20, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.19},
+						{"cpu": "1", "usr": 0.00, "nice": 0.00, "sys": 0.60, "iowait": 0.00, "irq": 0.00, "soft": 1.19, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.21},
+						{"cpu": "2", "usr": 0.00, "nice": 0.00, "sys": 1.03, "iowait": 0.00, "irq": 0.00, "soft": 1.03, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 97.95},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.52, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.48},
+						{"cpu": "4", "usr": 0.00, "nice": 0.00, "sys": 1.79, "iowait": 0.00, "irq": 0.00, "soft": 22.32, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 75.89},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 7.53, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 92.47},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.04, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.96},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.59, "iowait": 0.00, "irq": 0.00, "soft": 1.18, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.22},
+						{"cpu": "8", "usr": 0.54, "nice": 0.00, "sys": 55.68, "iowait": 0.00, "irq": 0.00, "soft": 0.54, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 43.24},
+						{"cpu": "9", "usr": 0.56, "nice": 0.00, "sys": 55.06, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.38},
+						{"cpu": "10", "usr": 0.57, "nice": 0.00, "sys": 55.68, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 43.75},
+						{"cpu": "11", "usr": 1.15, "nice": 0.00, "sys": 53.45, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.40},
+						{"cpu": "12", "usr": 0.57, "nice": 0.00, "sys": 53.45, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.98},
+						{"cpu": "13", "usr": 0.00, "nice": 0.00, "sys": 57.22, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 42.78},
+						{"cpu": "14", "usr": 1.16, "nice": 0.00, "sys": 51.16, "iowait": 0.00, "irq": 0.00, "soft": 0.58, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 47.09},
+						{"cpu": "15", "usr": 0.00, "nice": 0.00, "sys": 53.80, "iowait": 0.00, "irq": 0.00, "soft": 0.58, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.61}
+					]
+				},
+				{
+					"timestamp": "04:34:48 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.61, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.39},
+						{"cpu": "1", "usr": 0.00, "nice": 0.00, "sys": 0.60, "iowait": 0.00, "irq": 0.00, "soft": 1.19, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.21},
+						{"cpu": "2", "usr": 0.52, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.48},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.04, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.96},
+						{"cpu": "4", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 23.89, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 76.11},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 5.59, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 94.41},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.44},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.20, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.80},
+						{"cpu": "8", "usr": 1.67, "nice": 0.00, "sys": 55.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 43.33},
+						{"cpu": "9", "usr": 0.58, "nice": 0.00, "sys": 53.76, "iowait": 0.00, "irq": 0.00, "soft": 0.58, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.09},
+						{"cpu": "10", "usr": 0.56, "nice": 0.00, "sys": 53.93, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.94},
+						{"cpu": "11", "usr": 1.15, "nice": 0.00, "sys": 52.30, "iowait": 0.00, "irq": 0.00, "soft": 1.15, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.40},
+						{"cpu": "12", "usr": 1.15, "nice": 0.00, "sys": 51.15, "iowait": 0.00, "irq": 0.00, "soft": 0.57, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 47.13},
+						{"cpu": "13", "usr": 0.00, "nice": 0.00, "sys": 56.98, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 43.02},
+						{"cpu": "14", "usr": 0.00, "nice": 0.00, "sys": 53.33, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 46.11},
+						{"cpu": "15", "usr": 1.16, "nice": 0.00, "sys": 52.91, "iowait": 0.00, "irq": 0.00, "soft": 0.58, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.35}
+					]
+				},
+				{
+					"timestamp": "04:34:50 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.61, "iowait": 0.00, "irq": 0.00, "soft": 1.21, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.18},
+						{"cpu": "1", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.19, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.81},
+						{"cpu": "2", "usr": 0.00, "nice": 0.00, "sys": 0.52, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.96},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.48},
+						{"cpu": "4", "usr": 0.00, "nice": 0.00, "sys": 1.75, "iowait": 0.00, "irq": 0.00, "soft": 23.68, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 74.56},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 5.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 95.00},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.48},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.79, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.21},
+						{"cpu": "8", "usr": 0.57, "nice": 0.00, "sys": 53.41, "iowait": 0.00, "irq": 0.00, "soft": 0.57, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.45},
+						{"cpu": "9", "usr": 0.58, "nice": 0.00, "sys": 53.22, "iowait": 0.00, "irq": 0.00, "soft": 0.58, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.61},
+						{"cpu": "10", "usr": 1.12, "nice": 0.00, "sys": 54.19, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.13},
+						{"cpu": "11", "usr": 0.56, "nice": 0.00, "sys": 56.74, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 42.70},
+						{"cpu": "12", "usr": 1.14, "nice": 0.00, "sys": 53.98, "iowait": 0.00, "irq": 0.00, "soft": 0.57, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.32},
+						{"cpu": "13", "usr": 0.00, "nice": 0.00, "sys": 57.47, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 42.53},
+						{"cpu": "14", "usr": 0.57, "nice": 0.00, "sys": 54.55, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.89},
+						{"cpu": "15", "usr": 0.00, "nice": 0.00, "sys": 52.35, "iowait": 0.00, "irq": 0.00, "soft": 0.59, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 47.06}
+					]
+				},
+				{
+					"timestamp": "04:34:52 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 2.42, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 97.58},
+						{"cpu": "1", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.76, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.24},
+						{"cpu": "2", "usr": 0.00, "nice": 0.00, "sys": 0.52, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.95},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "4", "usr": 0.00, "nice": 0.00, "sys": 0.85, "iowait": 0.00, "irq": 0.00, "soft": 25.64, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 73.50},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 0.69, "iowait": 0.00, "irq": 0.00, "soft": 6.21, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 93.10},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "8", "usr": 0.59, "nice": 0.00, "sys": 50.59, "iowait": 0.00, "irq": 0.00, "soft": 0.59, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 48.24},
+						{"cpu": "9", "usr": 0.54, "nice": 0.00, "sys": 58.06, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 41.40},
+						{"cpu": "10", "usr": 1.11, "nice": 0.00, "sys": 56.11, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 42.78},
+						{"cpu": "11", "usr": 0.57, "nice": 0.00, "sys": 55.11, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.32},
+						{"cpu": "12", "usr": 0.60, "nice": 0.00, "sys": 50.60, "iowait": 0.00, "irq": 0.00, "soft": 0.60, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 48.21},
+						{"cpu": "13", "usr": 0.56, "nice": 0.00, "sys": 53.67, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.20},
+						{"cpu": "14", "usr": 0.57, "nice": 0.00, "sys": 56.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 43.43},
+						{"cpu": "15", "usr": 1.12, "nice": 0.00, "sys": 57.30, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 41.01}
+					]
+				},
+				{
+					"timestamp": "04:34:54 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.24, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.76},
+						{"cpu": "1", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.76, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.24},
+						{"cpu": "2", "usr": 0.52, "nice": 0.00, "sys": 0.52, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.96},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.48},
+						{"cpu": "4", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 26.09, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 73.91},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 5.59, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 94.41},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.04, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.96},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 2.91, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 97.09},
+						{"cpu": "8", "usr": 0.56, "nice": 0.00, "sys": 55.06, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.38},
+						{"cpu": "9", "usr": 0.56, "nice": 0.00, "sys": 56.18, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 42.70},
+						{"cpu": "10", "usr": 0.56, "nice": 0.00, "sys": 53.93, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.94},
+						{"cpu": "11", "usr": 1.13, "nice": 0.00, "sys": 54.80, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.07},
+						{"cpu": "12", "usr": 1.16, "nice": 0.00, "sys": 50.58, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 48.26},
+						{"cpu": "13", "usr": 0.60, "nice": 0.00, "sys": 50.00, "iowait": 0.00, "irq": 0.00, "soft": 0.60, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 48.81},
+						{"cpu": "14", "usr": 0.56, "nice": 0.00, "sys": 55.31, "iowait": 0.00, "irq": 0.00, "soft": 1.12, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 43.02},
+						{"cpu": "15", "usr": 0.56, "nice": 0.00, "sys": 57.87, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 41.01}
+					]
+				},
+				{
+					"timestamp": "04:34:56 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.61, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.39},
+						{"cpu": "1", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 2.94, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 97.06},
+						{"cpu": "2", "usr": 0.00, "nice": 0.00, "sys": 0.52, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.96},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "4", "usr": 0.00, "nice": 0.00, "sys": 1.80, "iowait": 0.00, "irq": 0.00, "soft": 22.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 75.68},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 5.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 94.48},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.04, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.96},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.20, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.80},
+						{"cpu": "8", "usr": 1.72, "nice": 0.00, "sys": 52.30, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.98},
+						{"cpu": "9", "usr": 1.70, "nice": 0.00, "sys": 56.82, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 41.48},
+						{"cpu": "10", "usr": 0.00, "nice": 0.00, "sys": 52.54, "iowait": 0.00, "irq": 0.00, "soft": 1.13, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 46.33},
+						{"cpu": "11", "usr": 0.57, "nice": 0.00, "sys": 52.30, "iowait": 0.00, "irq": 0.00, "soft": 1.15, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.98},
+						{"cpu": "12", "usr": 0.55, "nice": 0.00, "sys": 58.47, "iowait": 0.00, "irq": 0.00, "soft": 0.55, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 40.44},
+						{"cpu": "13", "usr": 1.16, "nice": 0.00, "sys": 53.76, "iowait": 0.00, "irq": 0.00, "soft": 0.58, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.51},
+						{"cpu": "14", "usr": 0.58, "nice": 0.00, "sys": 52.91, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 46.51},
+						{"cpu": "15", "usr": 1.14, "nice": 0.00, "sys": 53.14, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.71}
+					]
+				},
+				{
+					"timestamp": "04:34:58 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 2.45, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 97.55},
+						{"cpu": "1", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.20, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.80},
+						{"cpu": "2", "usr": 0.52, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.96},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.48},
+						{"cpu": "4", "usr": 0.00, "nice": 0.00, "sys": 1.80, "iowait": 0.00, "irq": 0.00, "soft": 22.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 75.68},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 6.99, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 93.01},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.55, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.45},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.60, "iowait": 0.00, "irq": 0.00, "soft": 1.19, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.21},
+						{"cpu": "8", "usr": 0.00, "nice": 0.00, "sys": 53.98, "iowait": 0.00, "irq": 0.00, "soft": 1.14, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.89},
+						{"cpu": "9", "usr": 0.00, "nice": 0.00, "sys": 53.63, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.81},
+						{"cpu": "10", "usr": 0.55, "nice": 0.00, "sys": 54.95, "iowait": 0.00, "irq": 0.00, "soft": 0.55, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 43.96},
+						{"cpu": "11", "usr": 1.15, "nice": 0.00, "sys": 54.60, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.25},
+						{"cpu": "12", "usr": 0.00, "nice": 0.00, "sys": 58.10, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 41.90},
+						{"cpu": "13", "usr": 0.57, "nice": 0.00, "sys": 54.86, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.57},
+						{"cpu": "14", "usr": 0.59, "nice": 0.00, "sys": 51.48, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 47.93},
+						{"cpu": "15", "usr": 0.56, "nice": 0.00, "sys": 53.37, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.51}
+					]
+				},
+				{
+					"timestamp": "04:35:00 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 3.05, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 96.95},
+						{"cpu": "1", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.79, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.21},
+						{"cpu": "2", "usr": 0.00, "nice": 0.00, "sys": 0.52, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.96},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.48},
+						{"cpu": "4", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 21.50, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 78.50},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 5.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 95.00},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.04, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.96},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.60, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.40},
+						{"cpu": "8", "usr": 0.00, "nice": 0.00, "sys": 55.75, "iowait": 0.00, "irq": 0.00, "soft": 0.57, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 43.68},
+						{"cpu": "9", "usr": 1.13, "nice": 0.00, "sys": 53.11, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.76},
+						{"cpu": "10", "usr": 1.16, "nice": 0.00, "sys": 51.45, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 47.40},
+						{"cpu": "11", "usr": 0.57, "nice": 0.00, "sys": 54.02, "iowait": 0.00, "irq": 0.00, "soft": 1.15, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.25},
+						{"cpu": "12", "usr": 0.56, "nice": 0.00, "sys": 56.50, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 42.94},
+						{"cpu": "13", "usr": 0.00, "nice": 0.00, "sys": 55.37, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.07},
+						{"cpu": "14", "usr": 0.56, "nice": 0.00, "sys": 52.78, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 46.67},
+						{"cpu": "15", "usr": 0.58, "nice": 0.00, "sys": 51.16, "iowait": 0.00, "irq": 0.00, "soft": 1.16, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 47.09}
+					]
+				},
+				{
+					"timestamp": "04:35:02 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.23, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.77},
+						{"cpu": "1", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.60, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.40},
+						{"cpu": "2", "usr": 0.52, "nice": 0.00, "sys": 0.52, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.96},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "4", "usr": 0.00, "nice": 0.00, "sys": 0.88, "iowait": 0.00, "irq": 0.00, "soft": 23.68, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 75.44},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 5.59, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 94.41},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.52, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.96},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.78, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.22},
+						{"cpu": "8", "usr": 0.56, "nice": 0.00, "sys": 56.74, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 42.13},
+						{"cpu": "9", "usr": 1.10, "nice": 0.00, "sys": 56.04, "iowait": 0.00, "irq": 0.00, "soft": 1.10, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 41.76},
+						{"cpu": "10", "usr": 0.56, "nice": 0.00, "sys": 57.06, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 41.81},
+						{"cpu": "11", "usr": 1.11, "nice": 0.00, "sys": 57.78, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 40.56},
+						{"cpu": "12", "usr": 0.57, "nice": 0.00, "sys": 48.85, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 50.57},
+						{"cpu": "13", "usr": 0.00, "nice": 0.00, "sys": 55.80, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.20},
+						{"cpu": "14", "usr": 0.00, "nice": 0.00, "sys": 55.62, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 43.82},
+						{"cpu": "15", "usr": 0.60, "nice": 0.00, "sys": 51.79, "iowait": 0.00, "irq": 0.00, "soft": 0.60, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 47.02}
+					]
+				},
+				{
+					"timestamp": "04:35:04 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.84, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.16},
+						{"cpu": "1", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.60, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.40},
+						{"cpu": "2", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.48},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 100.00},
+						{"cpu": "4", "usr": 0.00, "nice": 0.00, "sys": 0.88, "iowait": 0.00, "irq": 0.00, "soft": 23.68, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 75.44},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 0.69, "iowait": 0.00, "irq": 0.00, "soft": 6.90, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 92.41},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.04, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.96},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.79, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.21},
+						{"cpu": "8", "usr": 0.57, "nice": 0.00, "sys": 54.02, "iowait": 0.00, "irq": 0.00, "soft": 0.57, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.83},
+						{"cpu": "9", "usr": 0.00, "nice": 0.00, "sys": 57.47, "iowait": 0.00, "irq": 0.00, "soft": 0.57, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 41.95},
+						{"cpu": "10", "usr": 0.58, "nice": 0.00, "sys": 54.07, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.35},
+						{"cpu": "11", "usr": 0.58, "nice": 0.00, "sys": 53.22, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 46.20},
+						{"cpu": "12", "usr": 0.56, "nice": 0.00, "sys": 56.42, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 42.46},
+						{"cpu": "13", "usr": 0.00, "nice": 0.00, "sys": 53.98, "iowait": 0.00, "irq": 0.00, "soft": 1.14, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.89},
+						{"cpu": "14", "usr": 0.56, "nice": 0.00, "sys": 54.44, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.00},
+						{"cpu": "15", "usr": 1.10, "nice": 0.00, "sys": 55.25, "iowait": 0.00, "irq": 0.00, "soft": 0.55, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 43.09}
+					]
+				},
+				{
+					"timestamp": "04:35:06 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.23, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.77},
+						{"cpu": "1", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.18, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.82},
+						{"cpu": "2", "usr": 0.00, "nice": 0.00, "sys": 1.04, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.96},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.52, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.48},
+						{"cpu": "4", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 22.73, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 77.27},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 6.90, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 93.10},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.04, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.96},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 2.37, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 97.63},
+						{"cpu": "8", "usr": 0.56, "nice": 0.00, "sys": 55.06, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.38},
+						{"cpu": "9", "usr": 1.15, "nice": 0.00, "sys": 55.17, "iowait": 0.00, "irq": 0.00, "soft": 0.57, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 43.10},
+						{"cpu": "10", "usr": 0.56, "nice": 0.00, "sys": 54.80, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.07},
+						{"cpu": "11", "usr": 1.18, "nice": 0.00, "sys": 51.76, "iowait": 0.00, "irq": 0.00, "soft": 0.59, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 46.47},
+						{"cpu": "12", "usr": 1.16, "nice": 0.00, "sys": 54.34, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.51},
+						{"cpu": "13", "usr": 1.14, "nice": 0.00, "sys": 54.29, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.57},
+						{"cpu": "14", "usr": 0.00, "nice": 0.00, "sys": 50.30, "iowait": 0.00, "irq": 0.00, "soft": 0.60, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 49.10},
+						{"cpu": "15", "usr": 0.00, "nice": 0.00, "sys": 56.40, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 43.60}
+					]
+				},
+				{
+					"timestamp": "04:35:08 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 3.01, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 96.99},
+						{"cpu": "1", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.60, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.40},
+						{"cpu": "2", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.48},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.52, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.96},
+						{"cpu": "4", "usr": 0.00, "nice": 0.00, "sys": 1.75, "iowait": 0.00, "irq": 0.00, "soft": 26.32, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 71.93},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 0.68, "iowait": 0.00, "irq": 0.00, "soft": 4.11, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 95.21},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.05, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.95},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.59, "iowait": 0.00, "irq": 0.00, "soft": 1.18, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.22},
+						{"cpu": "8", "usr": 1.13, "nice": 0.00, "sys": 55.93, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 42.94},
+						{"cpu": "9", "usr": 0.00, "nice": 0.00, "sys": 59.09, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 40.91},
+						{"cpu": "10", "usr": 0.00, "nice": 0.00, "sys": 55.11, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.89},
+						{"cpu": "11", "usr": 0.56, "nice": 0.00, "sys": 55.93, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 43.50},
+						{"cpu": "12", "usr": 1.12, "nice": 0.00, "sys": 56.18, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 42.13},
+						{"cpu": "13", "usr": 1.68, "nice": 0.00, "sys": 56.98, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 41.34},
+						{"cpu": "14", "usr": 1.14, "nice": 0.00, "sys": 53.98, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.89},
+						{"cpu": "15", "usr": 1.16, "nice": 0.00, "sys": 50.29, "iowait": 0.00, "irq": 0.00, "soft": 0.58, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 47.98}
+					]
+				},
+				{
+					"timestamp": "04:35:10 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.23, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.77},
+						{"cpu": "1", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.19, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.81},
+						{"cpu": "2", "usr": 0.52, "nice": 0.00, "sys": 0.52, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.45},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.53, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.47},
+						{"cpu": "4", "usr": 0.00, "nice": 0.00, "sys": 1.83, "iowait": 0.00, "irq": 0.00, "soft": 28.44, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 69.72},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 4.83, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 95.17},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 2.06, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 97.94},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.20, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.80},
+						{"cpu": "8", "usr": 0.58, "nice": 0.00, "sys": 56.07, "iowait": 0.00, "irq": 0.00, "soft": 0.58, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 42.77},
+						{"cpu": "9", "usr": 0.58, "nice": 0.00, "sys": 57.31, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 42.11},
+						{"cpu": "10", "usr": 1.13, "nice": 0.00, "sys": 53.11, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.20},
+						{"cpu": "11", "usr": 1.12, "nice": 0.00, "sys": 55.62, "iowait": 0.00, "irq": 0.00, "soft": 0.56, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 42.70},
+						{"cpu": "12", "usr": 0.00, "nice": 0.00, "sys": 54.29, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.71},
+						{"cpu": "13", "usr": 0.57, "nice": 0.00, "sys": 55.17, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.25},
+						{"cpu": "14", "usr": 0.58, "nice": 0.00, "sys": 52.02, "iowait": 0.00, "irq": 0.00, "soft": 0.58, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 46.82},
+						{"cpu": "15", "usr": 1.17, "nice": 0.00, "sys": 53.22, "iowait": 0.00, "irq": 0.00, "soft": 1.17, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.44}
+					]
+				},
+				{
+					"timestamp": "04:35:12 PM",
+					"cpu-load": [
+						{"cpu": "0", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.23, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.77},
+						{"cpu": "1", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.19, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.81},
+						{"cpu": "2", "usr": 0.00, "nice": 0.00, "sys": 1.04, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.45},
+						{"cpu": "3", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.48},
+						{"cpu": "4", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 28.70, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 71.30},
+						{"cpu": "5", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 5.63, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 94.37},
+						{"cpu": "6", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 0.52, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 99.48},
+						{"cpu": "7", "usr": 0.00, "nice": 0.00, "sys": 0.00, "iowait": 0.00, "irq": 0.00, "soft": 1.20, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 98.80},
+						{"cpu": "8", "usr": 0.00, "nice": 0.00, "sys": 55.75, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.25},
+						{"cpu": "9", "usr": 0.57, "nice": 0.00, "sys": 54.55, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.89},
+						{"cpu": "10", "usr": 0.58, "nice": 0.00, "sys": 53.76, "iowait": 0.00, "irq": 0.00, "soft": 0.58, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 45.09},
+						{"cpu": "11", "usr": 0.00, "nice": 0.00, "sys": 54.91, "iowait": 0.00, "irq": 0.00, "soft": 0.58, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.51},
+						{"cpu": "12", "usr": 0.56, "nice": 0.00, "sys": 53.37, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 46.07},
+						{"cpu": "13", "usr": 0.57, "nice": 0.00, "sys": 51.15, "iowait": 0.00, "irq": 0.00, "soft": 1.72, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 46.55},
+						{"cpu": "14", "usr": 0.55, "nice": 0.00, "sys": 54.10, "iowait": 0.00, "irq": 0.00, "soft": 0.55, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.81},
+						{"cpu": "15", "usr": 1.14, "nice": 0.00, "sys": 54.55, "iowait": 0.00, "irq": 0.00, "soft": 0.00, "steal": 0.00, "guest": 0.00, "gnice": 0.00, "idle": 44.32}
+					]
+				}
+			]
+		}
+	]
+}}

@@ -1,0 +1,39 @@
++ echo 'setting interface eth100 to paced rate of '
+setting interface eth100 to paced rate of 
++ tc qdisc del dev eth100 root
+RTNETLINK answers: Operation not permitted
++ '[' -n '' ']'
++ tc qdisc show dev eth100
+qdisc mq 0: root 
+qdisc fq_codel 0: parent :20 limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :1f limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :1e limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :1d limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :1c limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :1b limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :1a limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :19 limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :18 limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :17 limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :16 limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :15 limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :14 limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :13 limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :12 limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :11 limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :10 limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :f limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :e limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :d limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :c limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :b limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :a limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :9 limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :8 limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :7 limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :6 limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :5 limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :4 limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :3 limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :2 limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 
+qdisc fq_codel 0: parent :1 limit 10240p flows 1024 quantum 9014 target 5ms interval 100ms memory_limit 32Mb ecn drop_batch 64 

@@ -1,0 +1,496 @@
+
+Collecting Results from all files...
+
+ Got iperf3 data from 24 files
+
+ Got mpstat data from 24 sender files and 0 receiver files
+
+Computing CPU Averages...
+
+Summary of all testing: 
+
+
+Test iperf3_40G_BIGTCP to Host: 10.10.2.32   (num tests: 10)
+       Throughput:   Mean: 33.8 Gbps   Min: 31.2 Gbps  Max: 34.9 Gbps   STDEV: 1.5   Retr: 0
+     Sender CPU 0:   usr :  0.0   sys :  0.1   soft:  0.1   idle: 99.8   Total:0.2
+     Sender CPU 1:   usr :  0.0   sys :  0.0   idle: 99.9   Total:0.0
+     Sender CPU 2:   usr :  0.0   sys :  0.0   soft:  0.5   idle: 99.5   Total:0.5
+     Sender CPU 3:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 4:   usr :  0.0   sys :  0.0   idle: 99.9   Total:0.0
+     Sender CPU 5:   usr :  0.0   sys :  0.0   soft:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 6:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 7:   sys :  0.0   soft:  0.1   idle: 99.9   Total:0.1
+     Sender CPU 8:   usr :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 10:   usr :  0.2   sys : 99.7   soft:  0.1   Total:100.0
+     Sender CPU 11:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 12:   usr :  0.0   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 13:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 14:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 15:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+
+Test iperf3_8streams_default_BIGTCP to Host: 10.10.2.32   (num tests: 10)
+       Throughput:   Mean: 171.6 Gbps   Min: 162.1 Gbps  Max: 183.8 Gbps   STDEV: 6.3   Retr: 32237
+     Sender CPU 0:   usr :  0.0   sys :  0.5   soft:  6.8   idle: 92.7   Total:7.3
+     Sender CPU 1:   usr :  0.0   sys :  0.6   soft:  6.9   idle: 92.4   Total:7.5
+     Sender CPU 2:   usr :  0.0   sys :  0.3   soft:  1.3   idle: 98.4   Total:1.6
+     Sender CPU 3:   sys :  0.5   soft:  3.4   idle: 96.2   Total:3.9
+     Sender CPU 4:   usr :  0.0   sys :  0.6   soft: 11.3   idle: 88.0   Total:11.9
+     Sender CPU 5:   usr :  0.0   sys :  0.4   soft: 10.1   idle: 89.5   Total:10.5
+     Sender CPU 6:   usr :  0.0   sys :  0.5   soft:  8.3   idle: 91.1   Total:8.8
+     Sender CPU 7:   usr :  0.0   sys :  0.5   soft:  2.5   idle: 97.0   Total:3.0
+     Sender CPU 8:   usr :  0.6   sys : 79.5   soft:  0.0   idle: 20.0   Total:80.1
+     Sender CPU 9:   usr :  0.6   sys : 79.0   idle: 20.5   Total:79.6
+     Sender CPU 10:   usr :  0.5   sys : 76.1   soft:  0.0   idle: 23.3   Total:76.6
+     Sender CPU 11:   usr :  0.6   sys : 84.5   idle: 14.9   Total:85.1
+     Sender CPU 12:   usr :  0.5   sys : 81.7   idle: 17.8   Total:82.2
+     Sender CPU 13:   usr :  0.6   sys : 86.5   idle: 12.9   Total:87.1
+     Sender CPU 14:   usr :  0.6   sys : 87.1   idle: 12.3   Total:87.7
+     Sender CPU 15:   usr :  0.5   sys : 72.7   idle: 26.8   Total:73.2
+
+Test iperf3_8streams_paced_15G_BIGTCP to Host: 10.10.2.32   (num tests: 10)
+       Throughput:   Mean: 118.2 Gbps   Min: 115.8 Gbps  Max: 120.0 Gbps   STDEV: 1.4   Retr: 952
+     Sender CPU 0:   usr :  0.0   sys :  0.3   soft:  2.3   idle: 97.3   Total:2.6
+     Sender CPU 1:   usr :  0.0   sys :  0.4   soft:  2.6   idle: 97.0   Total:3.0
+     Sender CPU 2:   usr :  0.0   sys :  0.4   soft:  3.3   idle: 96.3   Total:3.7
+     Sender CPU 3:   usr :  0.0   sys :  0.3   soft:  0.8   idle: 99.0   Total:1.1
+     Sender CPU 4:   usr :  0.0   sys :  0.4   soft:  2.8   idle: 96.7   Total:3.2
+     Sender CPU 5:   sys :  0.2   soft:  0.7   idle: 99.1   Total:0.9
+     Sender CPU 6:   usr :  0.0   sys :  0.3   soft:  1.7   idle: 98.0   Total:2.0
+     Sender CPU 7:   usr :  0.0   sys :  0.4   soft:  3.4   idle: 96.1   Total:3.8
+     Sender CPU 8:   usr :  0.5   sys : 48.3   soft:  0.8   idle: 50.5   Total:49.6
+     Sender CPU 9:   usr :  0.4   sys : 49.4   soft:  0.7   idle: 49.4   Total:50.5
+     Sender CPU 10:   usr :  0.4   sys : 49.1   soft:  0.7   idle: 49.7   Total:50.2
+     Sender CPU 11:   usr :  0.5   sys : 48.9   soft:  0.7   idle: 49.9   Total:50.1
+     Sender CPU 12:   usr :  0.4   sys : 49.5   soft:  0.7   idle: 49.4   Total:50.6
+     Sender CPU 13:   usr :  0.5   sys : 49.5   soft:  0.8   idle: 49.3   Total:50.8
+     Sender CPU 14:   usr :  0.4   sys : 48.2   soft:  0.7   idle: 50.6   Total:49.3
+     Sender CPU 15:   usr :  0.5   sys : 48.7   soft:  0.8   idle: 50.1   Total:50.0
+
+Test iperf3_8streams_paced_15G_zerocopy_BIGTCP to Host: 10.10.2.32   (num tests: 10)
+       Throughput:   Mean: 115.7 Gbps   Min: 88.9 Gbps  Max: 120.0 Gbps   STDEV: 9.7   Retr: 41
+     Sender CPU 0:   usr :  0.0   sys :  0.2   soft:  1.0   idle: 98.8   Total:1.2
+     Sender CPU 1:   usr :  0.0   sys :  0.2   soft:  1.3   idle: 98.5   Total:1.5
+     Sender CPU 2:   sys :  0.2   soft: 10.5   idle: 89.4   Total:10.7
+     Sender CPU 3:   sys :  0.1   soft:  0.4   idle: 99.5   Total:0.5
+     Sender CPU 4:   sys :  0.1   soft:  0.5   idle: 99.3   Total:0.6
+     Sender CPU 5:   usr :  0.0   sys :  0.2   soft:  3.0   idle: 96.7   Total:3.2
+     Sender CPU 6:   usr :  0.1   sys :  0.2   soft:  2.5   idle: 97.2   Total:2.8
+     Sender CPU 7:   sys :  0.2   soft:  1.2   idle: 98.6   Total:1.4
+     Sender CPU 8:   usr :  0.4   sys : 15.4   soft:  2.0   idle: 82.2   Total:17.8
+     Sender CPU 9:   usr :  0.4   sys : 15.5   soft:  1.9   idle: 82.2   Total:17.8
+     Sender CPU 10:   usr :  0.4   sys : 15.8   soft:  2.0   idle: 81.8   Total:18.2
+     Sender CPU 11:   usr :  0.4   sys : 15.6   soft:  1.9   idle: 82.2   Total:17.9
+     Sender CPU 12:   usr :  0.4   sys : 15.3   soft:  1.8   idle: 82.5   Total:17.5
+     Sender CPU 13:   usr :  0.4   sys : 15.6   soft:  1.9   idle: 82.1   Total:17.9
+     Sender CPU 14:   usr :  0.4   sys : 16.2   soft:  2.1   idle: 81.3   Total:18.7
+     Sender CPU 15:   usr :  0.4   sys : 16.0   soft:  2.1   idle: 81.6   Total:18.5
+
+Test iperf3_8streams_paced_20G_BIGTCP to Host: 10.10.2.32   (num tests: 10)
+       Throughput:   Mean: 144.5 Gbps   Min: 129.4 Gbps  Max: 159.7 Gbps   STDEV: 10.5   Retr: 4014
+     Sender CPU 0:   usr :  0.0   sys :  0.5   soft:  7.4   idle: 92.2   Total:7.9
+     Sender CPU 1:   usr :  0.0   sys :  0.5   soft:  7.1   idle: 92.4   Total:7.6
+     Sender CPU 2:   usr :  0.0   sys :  0.4   soft:  2.3   idle: 97.3   Total:2.7
+     Sender CPU 3:   sys :  0.5   soft: 17.4   idle: 82.1   Total:17.9
+     Sender CPU 4:   sys :  0.4   soft:  3.2   idle: 96.4   Total:3.6
+     Sender CPU 5:   sys :  0.5   soft:  7.7   idle: 91.8   Total:8.2
+     Sender CPU 6:   sys :  0.4   soft:  5.0   idle: 94.6   Total:5.4
+     Sender CPU 7:   sys :  0.4   soft:  2.7   idle: 96.9   Total:3.1
+     Sender CPU 8:   usr :  0.5   sys : 70.5   soft:  1.0   idle: 27.9   Total:72.0
+     Sender CPU 9:   usr :  0.5   sys : 75.1   soft:  1.0   idle: 23.4   Total:76.6
+     Sender CPU 10:   usr :  0.5   sys : 69.9   soft:  1.0   idle: 28.6   Total:71.4
+     Sender CPU 11:   usr :  0.5   sys : 68.8   soft:  0.9   idle: 29.7   Total:70.2
+     Sender CPU 12:   usr :  0.5   sys : 71.0   soft:  0.9   idle: 27.5   Total:72.4
+     Sender CPU 13:   usr :  0.5   sys : 73.5   soft:  1.0   idle: 25.0   Total:75.0
+     Sender CPU 14:   usr :  0.5   sys : 73.0   soft:  1.0   idle: 25.5   Total:74.5
+     Sender CPU 15:   usr :  0.5   sys : 69.4   soft:  0.9   idle: 29.2   Total:70.8
+
+Test iperf3_8streams_paced_20G_zerocopy_BIGTCP to Host: 10.10.2.32   (num tests: 10)
+       Throughput:   Mean: 154.9 Gbps   Min: 140.9 Gbps  Max: 159.9 Gbps   STDEV: 7.6   Retr: 43
+     Sender CPU 0:   usr :  0.0   sys :  0.2   soft:  1.5   idle: 98.2   Total:1.7
+     Sender CPU 1:   usr :  0.0   sys :  0.2   soft:  2.1   idle: 97.7   Total:2.3
+     Sender CPU 2:   usr :  0.0   sys :  0.2   soft:  0.9   idle: 98.8   Total:1.1
+     Sender CPU 3:   usr :  0.0   sys :  0.3   soft:  1.8   idle: 97.9   Total:2.1
+     Sender CPU 4:   sys :  0.2   soft:  4.1   idle: 95.7   Total:4.3
+     Sender CPU 5:   usr :  0.0   sys :  0.3   soft:  2.6   idle: 97.2   Total:2.9
+     Sender CPU 6:   sys :  0.2   soft:  4.0   idle: 95.7   Total:4.2
+     Sender CPU 7:   sys :  0.2   soft:  7.5   idle: 92.2   Total:7.7
+     Sender CPU 8:   usr :  0.6   sys : 29.4   soft:  4.3   idle: 65.7   Total:34.3
+     Sender CPU 9:   usr :  0.6   sys : 29.0   soft:  4.0   idle: 66.5   Total:33.6
+     Sender CPU 10:   usr :  0.6   sys : 29.3   soft:  4.2   idle: 65.8   Total:34.1
+     Sender CPU 11:   usr :  0.6   sys : 29.5   iowait:  0.0   soft:  4.2   idle: 65.8   Total:34.3
+     Sender CPU 12:   usr :  0.6   sys : 28.2   soft:  3.8   idle: 67.4   Total:32.6
+     Sender CPU 13:   usr :  0.6   sys : 29.6   soft:  4.2   idle: 65.6   Total:34.4
+     Sender CPU 14:   usr :  0.6   sys : 28.5   soft:  3.9   idle: 67.0   Total:33.0
+     Sender CPU 15:   usr :  0.6   sys : 28.7   soft:  4.0   idle: 66.8   Total:33.3
+
+Test iperf3_8streams_paced_25G_BIGTCP to Host: 10.10.2.32   (num tests: 10)
+       Throughput:   Mean: 177.4 Gbps   Min: 148.5 Gbps  Max: 192.6 Gbps   STDEV: 15.7   Retr: 776
+     Sender CPU 0:   usr :  0.0   sys :  0.1   soft:  1.3   idle: 98.5   Total:1.4
+     Sender CPU 1:   usr :  0.0   sys :  0.2   soft:  1.7   idle: 98.2   Total:1.9
+     Sender CPU 2:   usr :  0.0   sys :  0.1   soft:  1.0   idle: 98.9   Total:1.1
+     Sender CPU 3:   sys :  0.2   soft:  3.8   idle: 96.0   Total:4.0
+     Sender CPU 4:   sys :  0.3   soft:  2.0   idle: 97.8   Total:2.3
+     Sender CPU 5:   sys :  0.2   soft:  1.8   idle: 97.9   Total:2.0
+     Sender CPU 6:   sys :  0.4   soft: 14.0   idle: 85.6   Total:14.4
+     Sender CPU 7:   sys :  0.2   soft:  2.1   idle: 97.6   Total:2.3
+     Sender CPU 8:   usr :  0.6   sys : 83.4   soft:  0.8   idle: 15.2   Total:84.8
+     Sender CPU 9:   usr :  0.6   sys : 90.5   soft:  0.8   idle:  8.1   Total:91.9
+     Sender CPU 10:   usr :  0.6   sys : 93.0   soft:  0.8   idle:  5.6   Total:94.4
+     Sender CPU 11:   usr :  0.6   sys : 88.5   soft:  0.7   idle: 10.2   Total:89.8
+     Sender CPU 12:   usr :  0.6   sys : 91.6   soft:  0.7   idle:  7.1   Total:92.9
+     Sender CPU 13:   usr :  0.6   sys : 86.1   soft:  0.6   idle: 12.8   Total:87.3
+     Sender CPU 14:   usr :  0.6   sys : 91.8   soft:  0.8   idle:  6.8   Total:93.2
+     Sender CPU 15:   usr :  0.6   sys : 96.3   soft:  0.7   idle:  2.5   Total:97.6
+
+Test iperf3_8streams_paced_25G_zerocopy_BIGTCP to Host: 10.10.2.32   (num tests: 10)
+       Throughput:   Mean: 165.1 Gbps   Min: 122.6 Gbps  Max: 188.6 Gbps   STDEV: 21.8   Retr: 878
+     Sender CPU 0:   usr :  0.0   sys :  0.3   soft:  9.4   idle: 90.4   Total:9.7
+     Sender CPU 1:   usr :  0.0   sys :  0.3   soft: 11.4   idle: 88.3   Total:11.7
+     Sender CPU 2:   sys :  0.2   soft:  1.8   idle: 98.0   Total:2.0
+     Sender CPU 3:   sys :  0.2   soft: 13.0   idle: 86.7   Total:13.2
+     Sender CPU 4:   usr :  0.0   sys :  0.2   soft:  0.9   idle: 98.9   Total:1.1
+     Sender CPU 5:   sys :  0.3   soft: 18.3   idle: 81.4   Total:18.6
+     Sender CPU 6:   usr :  0.0   sys :  0.2   soft: 43.4   idle: 56.3   Total:43.6
+     Sender CPU 7:   usr :  0.0   sys :  0.3   soft:  9.9   idle: 89.8   Total:10.2
+     Sender CPU 8:   usr :  0.6   sys : 39.1   soft:  6.5   idle: 53.8   Total:46.2
+     Sender CPU 9:   usr :  0.6   sys : 41.5   soft:  7.0   idle: 50.9   Total:49.1
+     Sender CPU 10:   usr :  0.6   sys : 37.9   soft:  6.5   idle: 55.0   Total:45.0
+     Sender CPU 11:   usr :  0.6   sys : 37.4   soft:  6.3   idle: 55.7   Total:44.3
+     Sender CPU 12:   usr :  0.6   sys : 36.0   soft:  5.9   idle: 57.4   Total:42.5
+     Sender CPU 13:   usr :  0.6   sys : 38.4   soft:  6.7   idle: 54.3   Total:45.7
+     Sender CPU 14:   usr :  0.7   sys : 42.0   soft:  7.3   idle: 50.1   Total:50.0
+     Sender CPU 15:   usr :  0.6   sys : 37.2   soft:  6.1   idle: 56.1   Total:43.9
+
+Test iperf3_8streams_zerocopy_BIGTCP to Host: 10.10.2.32   (num tests: 10)
+       Throughput:   Mean: 182.5 Gbps   Min: 161.4 Gbps  Max: 192.6 Gbps   STDEV: 10.3   Retr: 1653
+     Sender CPU 0:   usr :  0.0   sys :  0.3   soft: 32.1   idle: 67.5   Total:32.4
+     Sender CPU 1:   sys :  0.4   soft:  9.1   idle: 90.5   Total:9.5
+     Sender CPU 2:   usr :  0.0   sys :  0.2   soft:  2.5   idle: 97.3   Total:2.7
+     Sender CPU 3:   usr :  0.0   sys :  0.2   soft:  9.9   idle: 89.9   Total:10.1
+     Sender CPU 4:   sys :  0.2   soft:  9.6   idle: 90.3   Total:9.8
+     Sender CPU 5:   sys :  0.3   soft: 46.7   idle: 53.0   Total:47.0
+     Sender CPU 6:   sys :  0.2   soft: 57.0   idle: 42.7   Total:57.2
+     Sender CPU 7:   sys :  0.5   soft: 14.4   idle: 85.2   Total:14.9
+     Sender CPU 8:   usr :  0.4   sys : 46.7   soft:  0.0   idle: 52.9   Total:47.1
+     Sender CPU 9:   usr :  0.4   sys : 46.0   idle: 53.6   Total:46.4
+     Sender CPU 10:   usr :  0.3   sys : 34.7   soft:  0.0   idle: 65.0   Total:35.0
+     Sender CPU 11:   usr :  0.3   sys : 35.9   soft:  0.0   idle: 63.8   Total:36.2
+     Sender CPU 12:   usr :  0.4   sys : 43.3   idle: 56.3   Total:43.7
+     Sender CPU 13:   usr :  0.3   sys : 40.1   idle: 59.6   Total:40.4
+     Sender CPU 14:   usr :  0.3   sys : 39.3   soft:  0.0   idle: 60.4   Total:39.6
+     Sender CPU 15:   usr :  0.3   sys : 38.8   idle: 60.9   Total:39.1
+
+Test iperf3_default_BIGTCP to Host: 10.10.2.32   (num tests: 10)
+       Throughput:   Mean: 34.4 Gbps   Min: 32.4 Gbps  Max: 36.8 Gbps   STDEV: 1.4   Retr: 2
+     Sender CPU 0:   usr :  0.0   sys :  0.1   soft:  0.1   idle: 99.8   Total:0.2
+     Sender CPU 1:   usr :  0.0   sys :  0.0   soft:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.0   sys :  0.0   soft:  0.3   idle: 99.7   Total:0.3
+     Sender CPU 3:   usr :  0.0   sys :  0.0   soft:  0.0   idle: 99.9   Total:0.0
+     Sender CPU 4:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 5:   usr :  0.0   sys :  0.0   soft:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 6:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 7:   usr :  0.0   sys :  0.0   soft:  0.0   idle: 99.9   Total:0.0
+     Sender CPU 8:   usr :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   idle: 100.0   Total:0.0
+     Sender CPU 10:   usr :  0.6   sys : 99.4   Total:100.0
+     Sender CPU 11:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 12:   usr :  0.0   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 13:   usr :  0.0   sys :  0.0   idle: 99.9   Total:0.0
+     Sender CPU 14:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 15:   usr :  0.0   sys :  0.0   idle: 99.9   Total:0.0
+
+Test iperf3_zerocopy_40G_BIGTCP to Host: 10.10.2.32   (num tests: 9)
+       Throughput:   Mean: 33.7 Gbps   Min: 33.2 Gbps  Max: 34.8 Gbps   STDEV: 0.5   Retr: 0
+     Sender CPU 0:   usr :  0.0   sys :  0.0   soft:  0.3   idle: 99.7   Total:0.3
+     Sender CPU 1:   usr :  0.0   sys :  0.0   soft:  0.1   idle: 99.8   Total:0.1
+     Sender CPU 2:   usr :  0.0   sys :  0.1   soft:  1.0   idle: 98.9   Total:1.1
+     Sender CPU 3:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 4:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 5:   usr :  0.0   sys :  0.0   soft:  0.2   idle: 99.8   Total:0.2
+     Sender CPU 6:   usr :  0.0   sys :  0.1   soft:  0.5   idle: 99.4   Total:0.6
+     Sender CPU 7:   usr :  0.0   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 8:   usr :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 10:   usr :  0.1   sys : 77.3   soft: 11.8   idle: 10.7   Total:89.2
+     Sender CPU 11:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 12:   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 13:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 14:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 15:   usr :  0.0   sys :  0.0   idle: 99.9   Total:0.0
+
+Test iperf3_zerocopy_BIGTCP to Host: 10.10.2.32   (num tests: 4)
+       Throughput:   Mean: 39.6 Gbps   Min: 38.0 Gbps  Max: 43.5 Gbps   STDEV: 2.6   Retr: 0
+     Sender CPU 0:   usr :  0.0   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 1:   usr :  0.0   sys :  0.1   soft:  0.1   idle: 99.8   Total:0.2
+     Sender CPU 2:   usr :  0.0   sys :  0.1   soft:  0.6   idle: 99.3   Total:0.7
+     Sender CPU 3:   usr :  0.0   sys :  0.0   soft:  0.0   idle: 99.9   Total:0.0
+     Sender CPU 4:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 5:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 6:   usr :  0.0   sys :  0.1   soft:  0.3   idle: 99.6   Total:0.4
+     Sender CPU 7:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 8:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  0.0   sys :  0.0   idle: 99.9   Total:0.0
+     Sender CPU 10:   usr :  0.2   sys : 32.6   idle: 67.2   Total:32.8
+     Sender CPU 11:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 12:   usr :  0.0   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 13:   usr :  0.0   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 14:   usr :  0.0   sys :  0.0   idle: 99.9   Total:0.0
+     Sender CPU 15:   usr :  0.0   sys :  0.1   idle: 99.9   Total:0.1
+
+Test iperf3_40G_BIGTCP to Host: 10.33.1.27   (num tests: 10)
+       Throughput:   Mean: 28.1 Gbps   Min: 27.9 Gbps  Max: 28.4 Gbps   STDEV: 0.2   Retr: 0
+     Sender CPU 0:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 1:   usr :  0.0   sys :  0.0   soft:  0.0   idle: 99.9   Total:0.0
+     Sender CPU 2:   usr :  0.0   sys :  0.0   soft:  0.3   idle: 99.7   Total:0.3
+     Sender CPU 3:   usr :  0.0   sys :  0.0   soft:  0.1   idle: 99.9   Total:0.1
+     Sender CPU 4:   usr :  0.0   sys :  0.0   soft:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 5:   usr :  0.0   sys :  0.0   soft:  0.0   idle: 99.9   Total:0.0
+     Sender CPU 6:   sys :  0.0   soft:  0.1   idle: 99.8   Total:0.1
+     Sender CPU 7:   usr :  0.0   sys :  0.0   iowait:  0.0   soft:  0.0   idle: 99.9   Total:0.0
+     Sender CPU 8:   usr :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   idle: 100.0   Total:0.0
+     Sender CPU 10:   usr :  0.2   sys : 99.7   soft:  0.1   Total:100.0
+     Sender CPU 11:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 12:   usr :  0.0   sys :  0.1   idle: 99.9   Total:0.1
+     Sender CPU 13:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 14:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 15:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+
+Test iperf3_8streams_default_BIGTCP to Host: 10.33.1.27   (num tests: 10)
+       Throughput:   Mean: 57.9 Gbps   Min: 23.2 Gbps  Max: 166.8 Gbps   STDEV: 47.9   Retr: 2290
+     Sender CPU 0:   usr :  0.0   sys :  0.2   soft:  2.9   idle: 96.8   Total:3.1
+     Sender CPU 1:   usr :  0.0   sys :  0.2   soft:  1.8   idle: 98.0   Total:2.0
+     Sender CPU 2:   usr :  0.0   sys :  0.1   soft:  0.5   idle: 99.4   Total:0.6
+     Sender CPU 3:   usr :  0.0   sys :  0.2   soft:  0.8   idle: 99.0   Total:1.0
+     Sender CPU 4:   usr :  0.0   sys :  0.1   soft:  0.5   idle: 99.4   Total:0.6
+     Sender CPU 5:   usr :  0.0   sys :  0.1   soft:  1.1   idle: 98.8   Total:1.2
+     Sender CPU 6:   usr :  0.0   sys :  0.1   soft:  1.5   idle: 98.3   Total:1.6
+     Sender CPU 7:   usr :  0.0   sys :  0.1   soft:  0.3   idle: 99.6   Total:0.4
+     Sender CPU 8:   usr :  0.1   sys : 19.7   idle: 80.2   Total:19.8
+     Sender CPU 9:   usr :  0.1   sys : 18.4   idle: 81.5   Total:18.5
+     Sender CPU 10:   usr :  0.1   sys : 18.5   idle: 81.4   Total:18.6
+     Sender CPU 11:   usr :  0.1   sys : 18.7   idle: 81.2   Total:18.8
+     Sender CPU 12:   usr :  0.1   sys : 17.1   idle: 82.7   Total:17.2
+     Sender CPU 13:   usr :  0.2   sys : 25.0   idle: 74.8   Total:25.2
+     Sender CPU 14:   usr :  0.2   sys : 22.3   idle: 77.5   Total:22.5
+     Sender CPU 15:   usr :  0.1   sys : 17.3   idle: 82.6   Total:17.4
+
+Test iperf3_8streams_paced_15G_BIGTCP to Host: 10.33.1.27   (num tests: 10)
+       Throughput:   Mean: 116.3 Gbps   Min: 102.0 Gbps  Max: 120.1 Gbps   STDEV: 6.1   Retr: 5264
+     Sender CPU 0:   usr :  0.0   sys :  0.2   soft:  1.0   idle: 98.8   Total:1.2
+     Sender CPU 1:   usr :  0.0   sys :  0.1   soft:  1.1   idle: 98.8   Total:1.2
+     Sender CPU 2:   sys :  0.2   soft:  3.0   idle: 96.8   Total:3.2
+     Sender CPU 3:   usr :  0.0   sys :  0.3   soft:  3.3   idle: 96.4   Total:3.6
+     Sender CPU 4:   sys :  0.3   soft:  4.4   idle: 95.4   Total:4.7
+     Sender CPU 5:   usr :  0.0   sys :  0.3   soft:  2.3   idle: 97.4   Total:2.6
+     Sender CPU 6:   sys :  0.2   soft:  1.4   idle: 98.4   Total:1.6
+     Sender CPU 7:   usr :  0.0   sys :  0.2   soft:  1.0   idle: 98.8   Total:1.2
+     Sender CPU 8:   usr :  0.4   sys : 49.8   soft:  0.6   idle: 49.2   Total:50.8
+     Sender CPU 9:   usr :  0.4   sys : 54.1   soft:  0.6   idle: 44.8   Total:55.1
+     Sender CPU 10:   usr :  0.4   sys : 45.6   soft:  0.5   idle: 53.5   Total:46.5
+     Sender CPU 11:   usr :  0.4   sys : 51.6   soft:  0.6   idle: 47.5   Total:52.6
+     Sender CPU 12:   usr :  0.4   sys : 52.0   soft:  0.6   idle: 47.0   Total:53.0
+     Sender CPU 13:   usr :  0.4   sys : 51.5   soft:  0.5   idle: 47.5   Total:52.4
+     Sender CPU 14:   usr :  0.4   sys : 52.9   soft:  0.6   idle: 46.0   Total:53.9
+     Sender CPU 15:   usr :  0.4   sys : 50.8   soft:  0.6   idle: 48.3   Total:51.8
+
+Test iperf3_8streams_paced_15G_zerocopy_BIGTCP to Host: 10.33.1.27   (num tests: 9)
+       Throughput:   Mean: 109.6 Gbps   Min: 82.0 Gbps  Max: 120.0 Gbps   STDEV: 13.7   Retr: 9913
+     Sender CPU 0:   usr :  0.0   sys :  0.2   soft:  3.1   idle: 96.7   Total:3.3
+     Sender CPU 1:   usr :  0.0   sys :  0.2   soft:  2.1   idle: 97.6   Total:2.3
+     Sender CPU 2:   sys :  0.1   soft:  0.6   idle: 99.3   Total:0.7
+     Sender CPU 3:   sys :  0.1   soft:  0.6   idle: 99.2   Total:0.7
+     Sender CPU 4:   sys :  0.1   soft:  0.5   idle: 99.5   Total:0.6
+     Sender CPU 5:   usr :  0.0   sys :  0.1   soft:  0.7   idle: 99.1   Total:0.8
+     Sender CPU 6:   sys :  0.2   soft:  4.1   idle: 95.6   Total:4.3
+     Sender CPU 7:   sys :  0.1   soft:  0.8   idle: 99.1   Total:0.9
+     Sender CPU 8:   usr : 13.0   sys : 56.5   soft: 20.0   idle: 10.6   Total:89.5
+     Sender CPU 9:   usr : 12.4   sys : 55.5   soft: 21.6   idle: 10.5   Total:89.5
+     Sender CPU 10:   usr : 12.2   sys : 54.5   soft: 22.7   idle: 10.6   Total:89.4
+     Sender CPU 11:   usr : 12.1   sys : 54.4   soft: 22.9   idle: 10.6   Total:89.4
+     Sender CPU 12:   usr : 12.2   sys : 54.6   soft: 22.6   idle: 10.5   Total:89.4
+     Sender CPU 13:   usr : 12.5   sys : 55.2   soft: 21.7   idle: 10.5   Total:89.4
+     Sender CPU 14:   usr : 12.6   sys : 55.5   soft: 21.3   idle: 10.6   Total:89.4
+     Sender CPU 15:   usr : 12.5   sys : 55.0   soft: 21.9   idle: 10.6   Total:89.4
+
+Test iperf3_8streams_paced_20G_BIGTCP to Host: 10.33.1.27   (num tests: 10)
+       Throughput:   Mean: 141.2 Gbps   Min: 98.9 Gbps  Max: 159.1 Gbps   STDEV: 23.1   Retr: 7950
+     Sender CPU 0:   usr :  0.0   sys :  0.3   soft:  6.2   idle: 93.5   Total:6.5
+     Sender CPU 1:   usr :  0.0   sys :  0.3   soft:  2.0   idle: 97.8   Total:2.3
+     Sender CPU 2:   usr :  0.0   sys :  0.2   soft:  1.8   idle: 98.0   Total:2.0
+     Sender CPU 3:   sys :  0.2   soft:  2.7   idle: 97.1   Total:2.9
+     Sender CPU 4:   usr :  0.0   sys :  0.2   soft:  3.7   idle: 96.0   Total:3.9
+     Sender CPU 5:   usr :  0.0   sys :  0.2   soft:  1.8   idle: 98.0   Total:2.0
+     Sender CPU 6:   sys :  0.2   soft:  3.6   idle: 96.2   Total:3.8
+     Sender CPU 7:   sys :  0.2   soft:  3.4   idle: 96.4   Total:3.6
+     Sender CPU 8:   usr :  0.5   sys : 81.4   soft:  0.9   idle: 17.3   Total:82.8
+     Sender CPU 9:   usr :  0.4   sys : 76.1   soft:  0.8   idle: 22.6   Total:77.3
+     Sender CPU 10:   usr :  0.5   sys : 80.9   soft:  0.9   idle: 17.8   Total:82.3
+     Sender CPU 11:   usr :  0.5   sys : 83.2   soft:  0.9   idle: 15.4   Total:84.6
+     Sender CPU 12:   usr :  0.5   sys : 74.0   soft:  0.8   idle: 24.8   Total:75.3
+     Sender CPU 13:   usr :  0.4   sys : 77.1   soft:  0.8   idle: 21.7   Total:78.3
+     Sender CPU 14:   usr :  0.4   sys : 76.1   soft:  0.8   idle: 22.6   Total:77.3
+     Sender CPU 15:   usr :  0.4   sys : 67.2   soft:  0.7   idle: 31.7   Total:68.3
+
+Test iperf3_8streams_paced_20G_zerocopy_BIGTCP to Host: 10.33.1.27   (num tests: 10)
+       Throughput:   Mean: 149.6 Gbps   Min: 124.8 Gbps  Max: 159.8 Gbps   STDEV: 16.3   Retr: 8218
+     Sender CPU 0:   usr :  0.0   sys :  0.2   soft:  2.0   idle: 97.8   Total:2.2
+     Sender CPU 1:   usr :  0.0   sys :  0.3   soft:  3.1   idle: 96.6   Total:3.4
+     Sender CPU 2:   usr :  0.0   sys :  0.2   soft:  1.7   idle: 98.0   Total:1.9
+     Sender CPU 3:   sys :  0.1   soft:  0.6   idle: 99.3   Total:0.7
+     Sender CPU 4:   sys :  0.2   soft:  1.6   idle: 98.2   Total:1.8
+     Sender CPU 5:   usr :  0.0   sys :  0.2   soft:  1.2   idle: 98.5   Total:1.4
+     Sender CPU 6:   sys :  0.2   soft:  2.9   idle: 96.9   Total:3.1
+     Sender CPU 7:   usr :  0.0   sys :  0.2   soft:  1.3   idle: 98.6   Total:1.5
+     Sender CPU 8:   usr :  9.6   sys : 60.0   soft: 29.8   idle:  0.6   Total:99.4
+     Sender CPU 9:   usr :  9.9   sys : 60.2   soft: 29.3   idle:  0.6   Total:99.4
+     Sender CPU 10:   usr :  9.5   sys : 60.1   soft: 29.9   idle:  0.5   Total:99.5
+     Sender CPU 11:   usr :  9.5   sys : 59.5   soft: 30.4   idle:  0.6   Total:99.4
+     Sender CPU 12:   usr : 10.7   sys : 61.1   soft: 27.6   idle:  0.6   Total:99.4
+     Sender CPU 13:   usr : 10.1   sys : 59.8   soft: 29.6   idle:  0.6   Total:99.5
+     Sender CPU 14:   usr :  9.7   sys : 59.3   soft: 30.5   idle:  0.6   Total:99.5
+     Sender CPU 15:   usr :  9.7   sys : 60.5   soft: 29.3   idle:  0.6   Total:99.5
+
+Test iperf3_8streams_paced_25G_BIGTCP to Host: 10.33.1.27   (num tests: 10)
+       Throughput:   Mean: 157.8 Gbps   Min: 140.2 Gbps  Max: 163.6 Gbps   STDEV: 8.5   Retr: 7293
+     Sender CPU 0:   usr :  0.0   sys :  0.0   soft:  0.4   idle: 99.5   Total:0.4
+     Sender CPU 1:   usr :  0.0   sys :  0.2   soft:  1.8   idle: 98.0   Total:2.0
+     Sender CPU 2:   usr :  0.0   sys :  0.2   soft:  8.5   idle: 91.4   Total:8.7
+     Sender CPU 3:   sys :  0.1   soft:  0.6   idle: 99.3   Total:0.7
+     Sender CPU 4:   sys :  0.2   soft:  1.3   idle: 98.5   Total:1.5
+     Sender CPU 5:   sys :  0.2   soft:  1.0   idle: 98.8   Total:1.2
+     Sender CPU 6:   usr :  0.0   sys :  0.2   soft:  3.8   idle: 96.0   Total:4.0
+     Sender CPU 7:   sys :  0.2   soft:  3.7   idle: 96.1   Total:3.9
+     Sender CPU 8:   usr :  0.4   sys : 91.6   soft:  0.1   idle:  7.9   Total:92.1
+     Sender CPU 9:   usr :  0.4   sys : 92.3   soft:  0.2   idle:  7.2   Total:92.9
+     Sender CPU 10:   usr :  0.4   sys : 94.4   soft:  0.1   idle:  5.1   Total:94.9
+     Sender CPU 11:   usr :  0.3   sys : 94.3   soft:  0.1   idle:  5.3   Total:94.7
+     Sender CPU 12:   usr :  0.4   sys : 98.9   soft:  0.2   idle:  0.5   Total:99.5
+     Sender CPU 13:   usr :  0.3   sys : 82.6   soft:  0.2   idle: 16.9   Total:83.1
+     Sender CPU 14:   usr :  0.4   sys : 99.0   soft:  0.1   idle:  0.5   Total:99.5
+     Sender CPU 15:   usr :  0.4   sys : 88.7   soft:  0.1   idle: 10.8   Total:89.2
+
+Test iperf3_8streams_paced_25G_zerocopy_BIGTCP to Host: 10.33.1.27   (num tests: 9)
+       Throughput:   Mean: 155.5 Gbps   Min: 135.3 Gbps  Max: 190.9 Gbps   STDEV: 20.3   Retr: 43460
+     Sender CPU 0:   usr :  0.0   sys :  0.4   iowait:  0.0   soft:  7.8   idle: 91.8   Total:8.2
+     Sender CPU 1:   usr :  0.0   sys :  0.2   soft:  1.8   idle: 97.9   Total:2.0
+     Sender CPU 2:   sys :  0.5   soft:  8.9   idle: 90.6   Total:9.4
+     Sender CPU 3:   usr :  0.0   sys :  0.3   iowait:  0.0   soft: 13.5   idle: 86.2   Total:13.8
+     Sender CPU 4:   sys :  0.2   soft:  5.2   idle: 94.6   Total:5.4
+     Sender CPU 5:   sys :  0.2   soft:  2.0   idle: 97.7   Total:2.2
+     Sender CPU 6:   sys :  0.3   soft: 16.8   idle: 82.9   Total:17.1
+     Sender CPU 7:   sys :  0.3   soft:  1.4   idle: 98.4   Total:1.7
+     Sender CPU 8:   usr :  8.1   sys : 54.0   soft: 18.0   idle: 19.8   Total:80.1
+     Sender CPU 9:   usr :  5.7   sys : 59.1   soft: 24.7   idle: 10.5   Total:89.5
+     Sender CPU 10:   usr :  7.7   sys : 58.5   soft: 23.2   idle: 10.6   Total:89.4
+     Sender CPU 11:   usr :  7.2   sys : 59.9   soft: 22.4   idle: 10.5   Total:89.5
+     Sender CPU 12:   usr :  9.3   sys : 60.0   soft: 20.1   idle: 10.6   Total:89.4
+     Sender CPU 13:   usr :  9.4   sys : 59.3   soft: 20.7   idle: 10.5   Total:89.4
+     Sender CPU 14:   usr :  7.3   sys : 53.2   soft: 19.7   idle: 19.8   Total:80.2
+     Sender CPU 15:   usr :  7.6   sys : 59.8   soft: 22.1   idle: 10.5   Total:89.5
+
+Test iperf3_8streams_zerocopy_BIGTCP to Host: 10.33.1.27   (num tests: 10)
+       Throughput:   Mean: 166.4 Gbps   Min: 148.1 Gbps  Max: 185.9 Gbps   STDEV: 14.9   Retr: 43178
+     Sender CPU 0:   usr :  0.0   sys :  0.3   soft:  5.4   idle: 94.3   Total:5.7
+     Sender CPU 1:   sys :  0.4   soft:  3.7   idle: 95.9   Total:4.1
+     Sender CPU 2:   sys :  0.7   soft: 28.6   idle: 70.7   Total:29.3
+     Sender CPU 3:   sys :  0.6   soft:  7.9   idle: 91.5   Total:8.5
+     Sender CPU 4:   sys :  0.4   soft: 22.8   idle: 76.8   Total:23.2
+     Sender CPU 5:   sys :  0.3   soft:  8.9   idle: 90.8   Total:9.2
+     Sender CPU 6:   sys :  0.3   soft:  5.6   idle: 94.1   Total:5.9
+     Sender CPU 7:   sys :  0.4   soft:  8.4   idle: 91.2   Total:8.8
+     Sender CPU 8:   usr :  9.1   sys : 83.2   soft:  0.0   idle:  7.7   Total:92.3
+     Sender CPU 9:   usr : 10.8   sys : 88.6   idle:  0.6   Total:99.4
+     Sender CPU 10:   usr : 12.2   sys : 87.3   soft:  0.0   idle:  0.6   Total:99.5
+     Sender CPU 11:   usr :  7.0   sys : 83.7   idle:  9.3   Total:90.7
+     Sender CPU 12:   usr :  7.0   sys : 76.8   soft:  0.0   idle: 16.2   Total:83.8
+     Sender CPU 13:   usr :  9.4   sys : 82.7   soft:  0.0   idle:  7.9   Total:92.1
+     Sender CPU 14:   usr :  9.7   sys : 79.9   idle: 10.4   Total:89.6
+     Sender CPU 15:   usr :  8.3   sys : 73.8   soft:  0.0   idle: 18.0   Total:82.1
+
+Test iperf3_default_BIGTCP to Host: 10.33.1.27   (num tests: 10)
+       Throughput:   Mean: 26.8 Gbps   Min: 9.6 Gbps  Max: 29.3 Gbps   STDEV: 6.1   Retr: 37
+     Sender CPU 0:   usr :  0.0   sys :  0.0   soft:  0.0   idle: 99.9   Total:0.0
+     Sender CPU 1:   usr :  0.0   sys :  0.0   soft:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   sys :  0.0   soft:  0.3   idle: 99.7   Total:0.3
+     Sender CPU 3:   usr :  0.0   sys :  0.0   soft:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 4:   usr :  0.0   sys :  0.0   soft:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 5:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 6:   usr :  0.0   sys :  0.0   iowait:  0.0   soft:  0.0   idle: 99.9   Total:0.0
+     Sender CPU 7:   sys :  0.0   soft:  0.0   idle: 100.0   Total:0.0
+     Sender CPU 8:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 9:   idle: 100.0   Total:0.0
+     Sender CPU 10:   usr :  0.5   sys : 91.0   idle:  8.4   Total:91.5
+     Sender CPU 11:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 12:   usr :  0.0   sys :  0.1   idle: 99.8   Total:0.1
+     Sender CPU 13:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 14:   usr :  0.0   sys :  0.0   idle: 99.9   Total:0.0
+     Sender CPU 15:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+
+Test iperf3_zerocopy_40G_BIGTCP to Host: 10.33.1.27   (num tests: 10)
+       Throughput:   Mean: 31.1 Gbps   Min: 30.9 Gbps  Max: 31.3 Gbps   STDEV: 0.1   Retr: 0
+     Sender CPU 0:   usr :  0.0   sys :  0.1   soft:  0.3   idle: 99.6   Total:0.4
+     Sender CPU 1:   usr :  0.0   sys :  0.0   soft:  0.0   idle: 99.9   Total:0.0
+     Sender CPU 2:   usr :  0.0   sys :  0.1   soft:  0.8   idle: 99.1   Total:0.9
+     Sender CPU 3:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 4:   usr :  0.0   sys :  0.0   idle: 99.9   Total:0.0
+     Sender CPU 5:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 6:   usr :  0.0   sys :  0.1   soft:  0.4   idle: 99.5   Total:0.5
+     Sender CPU 7:   usr :  0.0   sys :  0.1   soft:  0.2   idle: 99.7   Total:0.3
+     Sender CPU 8:   idle: 100.0   Total:0.0
+     Sender CPU 9:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 10:   usr :  0.1   sys : 86.6   soft: 13.3   Total:100.0
+     Sender CPU 11:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 12:   usr :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 13:   usr :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 14:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 15:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+
+Test iperf3_zerocopy_BIGTCP to Host: 10.33.1.27   (num tests: 10)
+       Throughput:   Mean: 36.2 Gbps   Min: 9.3 Gbps  Max: 40.9 Gbps   STDEV: 9.6   Retr: 1433
+     Sender CPU 0:   usr :  0.0   sys :  0.0   iowait:  0.0   idle: 99.9   Total:0.0
+     Sender CPU 1:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 2:   usr :  0.0   sys :  0.1   soft:  0.9   idle: 99.0   Total:1.0
+     Sender CPU 3:   usr :  0.0   sys :  0.1   soft:  0.1   idle: 99.8   Total:0.2
+     Sender CPU 4:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 5:   usr :  0.0   sys :  0.0   soft:  0.0   idle: 99.9   Total:0.0
+     Sender CPU 6:   usr :  0.0   sys :  0.0   soft:  0.3   idle: 99.7   Total:0.3
+     Sender CPU 7:   usr :  0.0   sys :  0.0   soft:  0.1   idle: 99.9   Total:0.1
+     Sender CPU 8:   idle: 100.0   Total:0.0
+     Sender CPU 9:   idle: 100.0   Total:0.0
+     Sender CPU 10:   usr :  1.3   sys : 89.8   idle:  8.9   Total:91.1
+     Sender CPU 11:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 12:   usr :  0.0   sys :  0.1   iowait:  0.0   idle: 99.9   Total:0.1
+     Sender CPU 13:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 14:   usr :  0.0   sys :  0.0   idle: 100.0   Total:0.0
+     Sender CPU 15:   usr :  0.0   sys :  0.0   idle: 99.9   Total:0.0
+
+
+Result Summary, sorted by Average Throughput:
+IP Address: 10.10.2.32
+    Test Name: iperf3_8streams_zerocopy_BIGTCP, Ave Throughput: 182.5 Gbps (std: 10.3, min: 161.4, max: 192.6),  Retr: 1653
+    Test Name: iperf3_8streams_paced_25G_BIGTCP, Ave Throughput: 177.4 Gbps (std: 15.7, min: 148.5, max: 192.6),  Retr: 776
+    Test Name: iperf3_8streams_default_BIGTCP, Ave Throughput: 171.6 Gbps (std: 6.3, min: 162.1, max: 183.8),  Retr: 32237
+    Test Name: iperf3_8streams_paced_25G_zerocopy_BIGTCP, Ave Throughput: 165.1 Gbps (std: 21.8, min: 122.6, max: 188.6),  Retr: 878
+    Test Name: iperf3_8streams_paced_20G_zerocopy_BIGTCP, Ave Throughput: 154.9 Gbps (std: 7.6, min: 140.9, max: 159.9),  Retr: 43
+    Test Name: iperf3_8streams_paced_20G_BIGTCP, Ave Throughput: 144.5 Gbps (std: 10.5, min: 129.4, max: 159.7),  Retr: 4014
+    Test Name: iperf3_8streams_paced_15G_BIGTCP, Ave Throughput: 118.2 Gbps (std: 1.4, min: 115.8, max: 120.0),  Retr: 952
+    Test Name: iperf3_8streams_paced_15G_zerocopy_BIGTCP, Ave Throughput: 115.7 Gbps (std: 9.7, min: 88.9, max: 120.0),  Retr: 41
+    Test Name: iperf3_zerocopy_BIGTCP, Ave Throughput: 39.6 Gbps (std: 2.6, min: 38.0, max: 43.5),  Retr: 0
+    Test Name: iperf3_default_BIGTCP, Ave Throughput: 34.4 Gbps (std: 1.4, min: 32.4, max: 36.8),  Retr: 2
+    Test Name: iperf3_40G_BIGTCP, Ave Throughput: 33.8 Gbps (std: 1.5, min: 31.2, max: 34.9),  Retr: 0
+    Test Name: iperf3_zerocopy_40G_BIGTCP, Ave Throughput: 33.7 Gbps (std: 0.5, min: 33.2, max: 34.8),  Retr: 0
+IP Address: 10.33.1.27
+    Test Name: iperf3_8streams_zerocopy_BIGTCP, Ave Throughput: 166.4 Gbps (std: 14.9, min: 148.1, max: 185.9),  Retr: 43178
+    Test Name: iperf3_8streams_paced_25G_BIGTCP, Ave Throughput: 157.8 Gbps (std: 8.5, min: 140.2, max: 163.6),  Retr: 7293
+    Test Name: iperf3_8streams_paced_25G_zerocopy_BIGTCP, Ave Throughput: 155.5 Gbps (std: 20.3, min: 135.3, max: 190.9),  Retr: 43460
+    Test Name: iperf3_8streams_paced_20G_zerocopy_BIGTCP, Ave Throughput: 149.6 Gbps (std: 16.3, min: 124.8, max: 159.8),  Retr: 8218
+    Test Name: iperf3_8streams_paced_20G_BIGTCP, Ave Throughput: 141.2 Gbps (std: 23.1, min: 98.9, max: 159.1),  Retr: 7950
+    Test Name: iperf3_8streams_paced_15G_BIGTCP, Ave Throughput: 116.3 Gbps (std: 6.1, min: 102.0, max: 120.1),  Retr: 5264
+    Test Name: iperf3_8streams_paced_15G_zerocopy_BIGTCP, Ave Throughput: 109.6 Gbps (std: 13.7, min: 82.0, max: 120.0),  Retr: 9913
+    Test Name: iperf3_8streams_default_BIGTCP, Ave Throughput: 57.9 Gbps (std: 47.9, min: 23.2, max: 166.8),  Retr: 2290
+    Test Name: iperf3_zerocopy_BIGTCP, Ave Throughput: 36.2 Gbps (std: 9.6, min: 9.3, max: 40.9),  Retr: 1433
+    Test Name: iperf3_zerocopy_40G_BIGTCP, Ave Throughput: 31.1 Gbps (std: 0.1, min: 30.9, max: 31.3),  Retr: 0
+    Test Name: iperf3_40G_BIGTCP, Ave Throughput: 28.1 Gbps (std: 0.2, min: 27.9, max: 28.4),  Retr: 0
+    Test Name: iperf3_default_BIGTCP, Ave Throughput: 26.8 Gbps (std: 6.1, min: 9.6, max: 29.3),  Retr: 37
