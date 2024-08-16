@@ -49,7 +49,7 @@ Test iperf3_1stream_bigtcp to Host: 10.3.54.2   (num tests: 10)
    Receiver CPU 2:   usr :  1.1   sys : 97.2   soft:  1.7   steal:  0.0   idle:  0.0   Total:100.0
 ```
 
-The second section presents a summary of all the results per destination sorted by mean through in descending order. I.e:
+The second section presents a summary of all the results per destination sorted by average throughput in descending order. I.e:
 ```
 IP Address: 10.3.54.2
     Test Name: iperf3_4streams_zerocopy, Ave Throughput: 99.0 Gbps (std: 0.0, min: 99.0, max: 99.0),  Retr: 24
