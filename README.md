@@ -30,7 +30,7 @@ Including, iperf3 path and CPU cores used for affinity (-A) and to be monitored 
 ```console
 nohup ./collect.py -j iperf3-final-set-bigtcp.ini -H hostlist.csv -i enp177s0f0np0 -l tuning-test.log -o ubuntu22-6.8
 ```
-Where -j is the configuration file, -H the destination hostlist -i the NIC that will be used ni the tests, -l the logfile and -o the path where the results will be saved
+Where -j is the configuration file, -H the destination hostlist -i the NIC that will be used in the tests, -l the logfile and -o the path where the results will be saved
 7) Create a summary of the results
 ```console
 cd ubuntu22-6.8; ../utils/summarize_all.py | tee summary.txt
